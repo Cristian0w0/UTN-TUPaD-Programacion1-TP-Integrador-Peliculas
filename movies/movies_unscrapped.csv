@@ -1,280 +1,1508 @@
 ﻿name,genre,year,duration,rating,director,language
-The Godfather,Crime,1972,175,9.2,Francis Ford Coppola,English
-The Shawshank Redemption,Drama,1994,142,9.3,Frank Darabont,English
-Pulp Fiction,Crime,1994,154,8.9,Quentin Tarantino,English
 The Dark Knight,Action,2008,152,9.0,Christopher Nolan,English
-Fight Club,Drama,1999,139,8.8,David Fincher,English
 Inception,Science Fiction,2010,148,8.8,Christopher Nolan,English
-The Matrix,Science Fiction,1999,136,8.7,Lana Wachowski,English
+Pulp Fiction,Crime,1994,154,8.9,Quentin Tarantino,English
+Fight Club,Drama,1999,139,8.8,David Fincher,English
+Forrest Gump,Drama,1994,142,8.8,Robert Zemeckis,English
+The Matrix,Science Fiction,1999,136,8.7,The Wachowskis,English
 Goodfellas,Crime,1990,146,8.7,Martin Scorsese,English
-Parasite,Thriller,2019,132,8.6,Bong Joon-ho,Korean
-Interstellar,Science Fiction,2014,169,8.6,Christopher Nolan,English
-City of God,Crime,2002,130,8.6,Fernando Meirelles,Portuguese
-Spirited Away,Fantasy,2001,125,8.6,Hayao Miyazaki,Japanese
-Life Is Beautiful,Drama,1997,116,8.6,Roberto Benigni,Italian
+The Shawshank Redemption,Drama,1994,142,9.3,Frank Darabont,English
+The Godfather,Crime,1972,175,9.2,Francis Ford Coppola,English
 The Silence of the Lambs,Thriller,1991,118,8.6,Jonathan Demme,English
-Saving Private Ryan,War,1998,169,8.6,Steven Spielberg,English
-The Green Mile,Drama,1999,189,8.6,Frank Darabont,English
-Leon: The Professional,Action,1994,110,8.5,Luc Besson,English
-The Usual Suspects,Crime,1995,106,8.5,Bryan Singer,English
-Se7en,Thriller,1995,127,8.6,David Fincher,English
-The Lion King,Adventure,1994,88,8.5,Roger Allers,English
-Back to the Future,Science Fiction,1985,116,8.5,Robert Zemeckis,English
-The Pianist,History,2002,150,8.5,Roman Polanski,English
-Gladiator,Action,2000,155,8.5,Ridley Scott,English
-The Departed,Crime,2006,151,8.5,Martin Scorsese,English
-The Prestige,Thriller,2006,130,8.5,Christopher Nolan,English
-Casablanca,Romance,1942,102,8.5,Michael Curtiz,English
-Whiplash,Music,2014,106,8.5,Damien Chazelle,English
-The Intouchables,Comedy,2011,112,8.5,Olivier Nakache,French
-Coco,Adventure,2017,105,8.4,Lee Unkrich,English
-Django Unchained,Western,2012,165,8.4,Quentin Tarantino,English
-The Shining,Horror,1980,146,8.4,Stanley Kubrick,English
-WALL-E,Science Fiction,2008,98,8.4,Andrew Stanton,English
-American History X,Drama,1998,119,8.4,Tony Kaye,English
-Grave of the Fireflies,War,1988,89,8.5,Isao Takahata,Japanese
-Aliens,Science Fiction,1986,137,8.4,James Cameron,English
-Oldboy,Thriller,2003,120,8.4,Park Chan-wook,Korean
-Amadeus,Music,1984,160,8.4,Milos Forman,English
-Once Upon a Time in the West,Western,1968,165,8.3,Sergio Leone,English
-Braveheart,History,1995,178,8.3,Mel Gibson,English
-Reservoir Dogs,Crime,1992,99,8.3,Quentin Tarantino,English
-Requiem for a Dream,Drama,2000,102,8.3,Darren Aronofsky,English
-Like Stars on Earth,Drama,2007,165,8.3,Aamir Khan,Hindi
-Singin' in the Rain,Comedy,1952,103,8.3,Gene Kelly,English
-North by Northwest,Thriller,1959,136,8.3,Alfred Hitchcock,English
-Back to the Future Part II,Science Fiction,1989,108,8.2,Robert Zemeckis,English
-Star Wars: Episode V - The Empire Strikes Back,Science Fiction,1980,124,8.7,Irvin Kershner,English
-Raiders of the Lost Ark,Adventure,1981,115,8.4,Steven Spielberg,English
-Toy Story,Adventure,1995,81,8.3,John Lasseter,English
-Joker,Drama,2019,122,8.4,Todd Phillips,English
-Inglourious Basterds,War,2009,153,8.3,Quentin Tarantino,English
-The Apartment,Comedy,1960,125,8.3,Billy Wilder,English
-Metropolis,Science Fiction,1927,153,8.3,Fritz Lang,German
-Scarface,Crime,1983,170,8.3,Brian De Palma,English
-A Separation,Drama,2011,123,8.3,Asghar Farhadi,Persian
-Rashomon,Mystery,1950,88,8.2,Akira Kurosawa,Japanese
-Indiana Jones and the Last Crusade,Adventure,1989,127,8.2,Steven Spielberg,English
-Up,Adventure,2009,96,8.2,Pete Docter,English
-Batman Begins,Action,2005,140,8.2,Christopher Nolan,English
-Some Like It Hot,Comedy,1959,121,8.2,Billy Wilder,English
-The Treasure of the Sierra Madre,Adventure,1948,126,8.2,John Huston,English
-Unforgiven,Western,1992,130,8.2,Clint Eastwood,English
-3 Idiots,Comedy,2009,170,8.4,Rajkumar Hirani,Hindi
-Bicycle Thieves,Drama,1948,89,8.3,Vittorio De Sica,Italian
-The Sixth Sense,Thriller,1999,107,8.2,M. Night Shyamalan,English
-The Thing,Horror,1982,109,8.2,John Carpenter,English
-Smultronstället,Drama,1957,91,8.2,Ingmar Bergman,Swedish
-Trainspotting,Drama,1996,93,8.1,Danny Boyle,English
-Fargo,Crime,1996,98,8.1,Joel Coen,English
-Warrior,Drama,2011,140,8.2,Gavin O'Connor,English
-Gran Torino,Drama,2008,116,8.1,Clint Eastwood,English
-V for Vendetta,Action,2005,132,8.2,James McTeigue,English
-The Bridge on the River Kwai,War,1957,161,8.1,David Lean,English
-Dial M for Murder,Thriller,1954,105,8.2,Alfred Hitchcock,English
-Gone with the Wind,History,1939,238,8.1,Victor Fleming,English
-Lock, Stock and Two Smoking Barrels,Comedy,1998,107,8.1,Guy Ritchie,English
-The Third Man,Thriller,1949,104,8.1,Carol Reed,English
-The Great Escape,War,1963,172,8.2,John Sturges,English
-Howl's Moving Castle,Fantasy,2004,119,8.2,Hayao Miyazaki,Japanese
-Heat,Crime,1995,170,8.3,Michael Mann,English
-Rebecca,Mystery,1940,130,8.1,Alfred Hitchcock,English
-The Sting,Crime,1973,129,8.3,George Roy Hill,English
-Amélie,Romance,2001,122,8.3,Jean-Pierre Jeunet,French
-A Clockwork Orange,Crime,1971,136,8.3,Stanley Kubrick,English
-Blade Runner,Science Fiction,1982,117,8.1,Ridley Scott,English
-The Elephant Man,Drama,1980,124,8.1,David Lynch,English
-Chinatown,Mystery,1974,130,8.1,Roman Polanski,English
-The Secret in Their Eyes,Thriller,2009,129,8.2,Juan José Campanella,Spanish
-Incendies,Drama,2010,131,8.3,Denis Villeneuve,French
-Full Metal Jacket,War,1987,116,8.3,Stanley Kubrick,English
-The Gold Rush,Comedy,1925,95,8.2,Charlie Chaplin,English
-The General,Adventure,1926,67,8.1,Clyde Bruckman,English
-The Deer Hunter,War,1978,183,8.1,Michael Cimino,English
-The Big Lebowski,Comedy,1998,117,8.1,Joel Coen,English
-Ran,History,1985,162,8.2,Akira Kurosawa,Japanese
-Judgment at Nuremberg,History,1961,179,8.2,Stanley Kramer,English
-The Wizard of Oz,Fantasy,1939,102,8.0,Victor Fleming,English
-Groundhog Day,Comedy,1993,101,8.0,Harold Ramis,English
-La Haine,Drama,1995,98,8.1,Mathieu Kassovitz,French
-The Terminator,Science Fiction,1984,107,8.0,James Cameron,English
-The Best Years of Our Lives,Drama,1946,170,8.1,William Wyler,English
-Twelve Monkeys,Science Fiction,1995,129,8.0,Terry Gilliam,English
-The Grapes of Wrath,Drama,1940,129,8.1,John Ford,English
-Annie Hall,Comedy,1977,93,8.0,Woody Allen,English
-The Wages of Fear,Thriller,1953,131,8.2,Henri-Georges Clouzot,French
-Stalker,Science Fiction,1979,162,8.1,Andrei Tarkovsky,Russian
-Barry Lyndon,History,1975,185,8.1,Stanley Kubrick,English
-Sherlock Jr.,Comedy,1924,45,8.2,Buster Keaton,English
-The 400 Blows,Drama,1959,99,8.1,François Truffaut,French
-The Battle of Algiers,War,1966,121,8.1,Gillo Pontecorvo,French
-The Passion of Joan of Arc,History,1928,114,8.2,Carl Theodor Dreyer,French
-Persona,Drama,1966,85,8.1,Ingmar Bergman,Swedish
-Raging Bull,Drama,1980,129,8.2,Martin Scorsese,English
-To Be or Not to Be,Comedy,1942,99,8.2,Ernst Lubitsch,English
-The Great Dictator,Comedy,1940,125,8.4,Charlie Chaplin,English
-The Seventh Seal,Fantasy,1957,96,8.1,Ingmar Bergman,Swedish
-Wild Strawberries,Drama,1957,91,8.2,Ingmar Bergman,Swedish
-Jurassic Park,Adventure,1993,127,8.2,Steven Spielberg,English
-The Maltese Falcon,Mystery,1941,100,8.0,John Huston,English
-Shutter Island,Thriller,2010,138,8.2,Martin Scorsese,English
-Butch Cassidy and the Sundance Kid,Western,1969,110,8.0,George Roy Hill,English
-The Exorcist,Horror,1973,122,8.0,William Friedkin,English
-Roman Holiday,Romance,1953,118,8.0,William Wyler,English
-Hacksaw Ridge,War,2016,139,8.1,Mel Gibson,English
-The Wolf of Wall Street,Comedy,2013,180,8.2,Martin Scorsese,English
-Sunset Boulevard,Drama,1950,110,8.4,Billy Wilder,English
-The Grand Budapest Hotel,Comedy,2014,99,8.1,Wes Anderson,English
-The Lives of Others,Drama,2006,137,8.4,Florian Henckel von Donnersmarck,German
-Dr. Strangelove,Comedy,1964,95,8.4,Stanley Kubrick,English
-The Green Book,Comedy,2018,130,8.2,Peter Farrelly,English
-Room,Drama,2015,118,8.1,Lenny Abrahamson,English
-Dunkirk,War,2017,106,7.8,Christopher Nolan,English
-Mad Max: Fury Road,Action,2015,120,8.1,George Miller,English
-The Shape of Water,Romance,2017,123,7.3,Guillermo del Toro,English
-Birdman,Comedy,2014,119,7.7,Alejandro G. Iñárritu,English
-Spotlight,Drama,2015,128,8.1,Tom McCarthy,English
-Moonlight,Drama,2016,111,7.4,Barry Jenkins,English
-Arrival,Science Fiction,2016,116,7.9,Denis Villeneuve,English
-La La Land,Music,2016,128,8.0,Damien Chazelle,English
-Get Out,Horror,2017,104,7.7,Jordan Peele,English
-The Social Network,Drama,2010,120,7.7,David Fincher,English
-Black Swan,Thriller,2010,108,8.0,Darren Aronofsky,English
-The King's Speech,History,2010,118,8.0,Tom Hooper,English
-Slumdog Millionaire,Drama,2008,120,8.0,Danny Boyle,English
-No Country for Old Men,Crime,2007,122,8.2,Joel Coen,English
-There Will Be Blood,Drama,2007,158,8.2,Paul Thomas Anderson,English
-The Prestige,Thriller,2006,130,8.5,Christopher Nolan,English
-The Departed,Crime,2006,151,8.5,Martin Scorsese,English
-Million Dollar Baby,Drama,2004,132,8.1,Clint Eastwood,English
-The Lord of the Rings: The Return of the King,Fantasy,2003,201,8.9,Peter Jackson,English
-The Lord of the Rings: The Two Towers,Fantasy,2002,179,8.7,Peter Jackson,English
+Star Wars: A New Hope,Science Fiction,1977,121,8.6,George Lucas,English
 The Lord of the Rings: The Fellowship of the Ring,Fantasy,2001,178,8.8,Peter Jackson,English
-American Beauty,Drama,1999,122,8.3,Sam Mendes,English
-The Truman Show,Comedy,1998,103,8.1,Peter Weir,English
-Good Will Hunting,Drama,1997,126,8.3,Gus Van Sant,English
-Fargo,Crime,1996,98,8.1,Joel Coen,English
-Braveheart,History,1995,178,8.3,Mel Gibson,English
-Forrest Gump,Comedy,1994,142,8.8,Robert Zemeckis,English
-Schindler's List,History,1993,195,8.9,Steven Spielberg,English
-Unforgiven,Western,1992,130,8.2,Clint Eastwood,English
-The Silence of the Lambs,Thriller,1991,118,8.6,Jonathan Demme,English
-Goodfellas,Crime,1990,146,8.7,Martin Scorsese,English
-Dead Poets Society,Drama,1989,128,8.1,Peter Weir,English
-Rain Man,Drama,1988,133,8.0,Barry Levinson,English
-Platoon,War,1986,120,8.1,Oliver Stone,English
-Amadeus,Music,1984,160,8.4,Milos Forman,English
-The Right Stuff,History,1983,193,7.8,Philip Kaufman,English
-Gandhi,History,1982,191,8.0,Richard Attenborough,English
-Chariots of Fire,History,1981,125,7.1,Hugh Hudson,English
-Ordinary People,Drama,1980,124,7.7,Robert Redford,English
-Kramer vs. Kramer,Drama,1979,105,7.8,Robert Benton,English
-The Deer Hunter,War,1978,183,8.1,Michael Cimino,English
-Annie Hall,Comedy,1977,93,8.0,Woody Allen,English
-Rocky,Drama,1976,120,8.1,John G. Avildsen,English
-One Flew Over the Cuckoo's Nest,Drama,1975,133,8.7,Milos Forman,English
-The Godfather Part II,Crime,1974,202,9.0,Francis Ford Coppola,English
-The Sting,Crime,1973,129,8.3,George Roy Hill,English
-The French Connection,Crime,1971,104,7.7,William Friedkin,English
-Patton,History,1970,172,7.9,Franklin J. Schaffner,English
-Midnight Cowboy,Drama,1969,113,7.8,John Schlesinger,English
-Oliver!,Music,1968,153,7.4,Carol Reed,English
-In the Heat of the Night,Drama,1967,110,7.9,Norman Jewison,English
-A Man for All Seasons,History,1966,120,7.7,Fred Zinnemann,English
-The Sound of Music,Music,1965,172,8.0,Robert Wise,English
-My Fair Lady,Music,1964,170,7.8,George Cukor,English
-Tom Jones,Comedy,1963,129,6.5,Tony Richardson,English
-Lawrence of Arabia,History,1962,218,8.3,David Lean,English
-West Side Story,Music,1961,153,7.5,Jerome Robbins,English
-The Apartment,Comedy,1960,125,8.3,Billy Wilder,English
-Ben-Hur,History,1959,212,8.1,William Wyler,English
-Gigi,Music,1958,115,6.7,Vincente Minnelli,English
-The Bridge on the River Kwai,War,1957,161,8.1,David Lean,English
-Around the World in 80 Days,Adventure,1956,175,6.8,Michael Anderson,English
-Marty,Drama,1955,90,7.7,Delbert Mann,English
-On the Waterfront,Drama,1954,108,8.1,Elia Kazan,English
-From Here to Eternity,Drama,1953,118,7.6,Fred Zinnemann,English
-The Greatest Show on Earth,Drama,1952,152,6.6,Cecil B. DeMille,English
-An American in Paris,Music,1951,114,7.2,Vincente Minnelli,English
-All About Eve,Drama,1950,138,8.2,Joseph L. Mankiewicz,English
-All the King's Men,Drama,1949,110,7.4,Robert Rossen,English
-Hamlet,Drama,1948,155,7.6,Laurence Olivier,English
-Gentleman's Agreement,Drama,1947,118,7.2,Elia Kazan,English
-The Best Years of Our Lives,Drama,1946,170,8.1,William Wyler,English
-The Lost Weekend,Drama,1945,101,7.9,Billy Wilder,English
-Going My Way,Music,1944,126,7.1,Leo McCarey,English
-Casablanca,Romance,1942,102,8.5,Michael Curtiz,English
-Mrs. Miniver,Drama,1942,134,7.6,William Wyler,English
-How Green Was My Valley,Drama,1941,118,7.7,John Ford,English
-Rebecca,Mystery,1940,130,8.1,Alfred Hitchcock,English
-Gone with the Wind,History,1939,238,8.1,Victor Fleming,English
-You Can't Take It with You,Comedy,1938,126,7.9,Frank Capra,English
-The Life of Emile Zola,History,1937,116,7.2,William Dieterle,English
-The Great Ziegfeld,Music,1936,185,6.7,Robert Z. Leonard,English
-Mutiny on the Bounty,Adventure,1935,132,7.7,Frank Lloyd,English
-It Happened One Night,Comedy,1934,105,8.1,Frank Capra,English
-Cavalcade,Drama,1933,110,6.4,Frank Lloyd,English
-Grand Hotel,Drama,1932,112,7.4,Edmund Goulding,English
-Cimarron,Western,1931,131,5.9,Wesley Ruggles,English
-All Quiet on the Western Front,War,1930,152,8.1,Lewis Milestone,English
-The Broadway Melody,Music,1929,100,5.9,Harry Beaumont,English
-Wings,War,1927,144,7.5,William A. Wellman,English
-Sunrise,Comedy,1927,94,8.1,F.W. Murnau,English
-The Artist,Comedy,2011,100,7.9,Michel Hazanavicius,French
-The Hurt Locker,War,2008,131,7.5,Kathryn Bigelow,English
-No Country for Old Men,Crime,2007,122,8.2,Joel Coen,English
-The Departed,Crime,2006,151,8.5,Martin Scorsese,English
-Crash,Drama,2004,112,7.7,Paul Haggis,English
-The Lord of the Rings: The Return of the King,Fantasy,2003,201,8.9,Peter Jackson,English
-Chicago,Music,2002,113,7.1,Rob Marshall,English
-A Beautiful Mind,Drama,2001,135,8.2,Ron Howard,English
 Gladiator,Action,2000,155,8.5,Ridley Scott,English
-American Beauty,Drama,1999,122,8.3,Sam Mendes,English
-Shakespeare in Love,Romance,1998,123,7.1,John Madden,English
-Titanic,Romance,1997,195,7.9,James Cameron,English
-The English Patient,Romance,1996,162,7.4,Anthony Minghella,English
-Braveheart,History,1995,178,8.3,Mel Gibson,English
-Forrest Gump,Comedy,1994,142,8.8,Robert Zemeckis,English
-Schindler's List,History,1993,195,8.9,Steven Spielberg,English
-Unforgiven,Western,1992,130,8.2,Clint Eastwood,English
-The Silence of the Lambs,Thriller,1991,118,8.6,Jonathan Demme,English
-Dances with Wolves,Western,1990,181,8.0,Kevin Costner,English
-Driving Miss Daisy,Drama,1989,99,7.4,Bruce Beresford,English
-Rain Man,Drama,1988,133,8.0,Barry Levinson,English
-The Last Emperor,History,1987,163,7.7,Bernardo Bertolucci,English
-Platoon,War,1986,120,8.1,Oliver Stone,English
-Out of Africa,Romance,1985,161,7.1,Sydney Pollack,English
-Amadeus,Music,1984,160,8.4,Milos Forman,English
-Terms of Endearment,Drama,1983,132,7.4,James L. Brooks,English
-Gandhi,History,1982,191,8.0,Richard Attenborough,English
-Chariots of Fire,History,1981,125,7.1,Hugh Hudson,English
-Ordinary People,Drama,1980,124,7.7,Robert Redford,English
-Kramer vs. Kramer,Drama,1979,105,7.8,Robert Benton,English
-The Deer Hunter,War,1978,183,8.1,Michael Cimino,English
-Annie Hall,Comedy,1977,93,8.0,Woody Allen,English
-Rocky,Drama,1976,120,8.1,John G. Avildsen,English
-One Flew Over the Cuckoo's Nest,Drama,1975,133,8.7,Milos Forman,English
-The Godfather Part II,Crime,1974,202,9.0,Francis Ford Coppola,English
-The Sting,Crime,1973,129,8.3,George Roy Hill,English
-The French Connection,Crime,1971,104,7.7,William Friedkin,English
-Patton,History,1970,172,7.9,Franklin J. Schaffner,English
-Midnight Cowboy,Drama,1969,113,7.8,John Schlesinger,English
-Oliver!,Music,1968,153,7.4,Carol Reed,English
-In the Heat of the Night,Drama,1967,110,7.9,Norman Jewison,English
-A Man for All Seasons,History,1966,120,7.7,Fred Zinnemann,English
-The Sound of Music,Music,1965,172,8.0,Robert Wise,English
-My Fair Lady,Music,1964,170,7.8,George Cukor,English
-Tom Jones,Comedy,1963,129,6.5,Tony Richardson,English
-Lawrence of Arabia,History,1962,218,8.3,David Lean,English
-West Side Story,Music,1961,153,7.5,Jerome Robbins,English
-The Apartment,Comedy,1960,125,8.3,Billy Wilder,English
-Ben-Hur,History,1959,212,8.1,William Wyler,English
-Gigi,Music,1958,115,6.7,Vincente Minnelli,English
-The Bridge on the River Kwai,War,1957,161,8.1,David Lean,English
-Around the World in 80 Days,Adventure,1956,175,6.8,Michael Anderson,English
-Marty,Drama,1955,90,7.7,Delbert Mann,English
-On the Waterfront,Drama,1954,108,8.1,Elia Kazan,English
-From Here to Eternity,Drama,1953,118,7.6,Fred Zinnemann,English
-The Greatest Show on Earth,Drama,1952,152,6.6,Cecil B. DeMille,English
-An American in Paris,Music,1951,114,7.2,Vincente Minnelli,English
-All About Eve,Drama,1950,138,8.2,Joseph L. Mankiewicz,English
+Saving Private Ryan,War,1998,169,8.6,Steven Spielberg,English
+The Departed,Crime,2006,151,8.5,Martin Scorsese,English
+The Prestige,Thriller,2006,130,8.5,Christopher Nolan,English
+Interstellar,Science Fiction,2014,169,8.6,Christopher Nolan,English
+The Avengers,Action,2012,143,8.0,Joss Whedon,English
+Django Unchained,Western,2012,165,8.4,Quentin Tarantino,English
+The Wolf of Wall Street,Comedy,2013,180,8.2,Martin Scorsese,English
+Mad Max: Fury Road,Action,2015,120,8.1,George Miller,English
+The Revenant,Adventure,2015,156,8.0,Alejandro G. Iñárritu,English
+Gravity,Science Fiction,2013,91,7.7,Alfonso Cuarón,English
+La La Land,Music,2016,128,8.0,Damien Chazelle,English
+Whiplash,Drama,2014,106,8.5,Damien Chazelle,English
+Birdman,Comedy,2014,119,7.7,Alejandro G. Iñárritu,English
+The Grand Budapest Hotel,Comedy,2014,99,8.1,Wes Anderson,English
+Arrival,Science Fiction,2016,116,7.9,Denis Villeneuve,English
+Blade Runner 2049,Science Fiction,2017,164,8.0,Denis Villeneuve,English
+Get Out,Horror,2017,104,7.7,Jordan Peele,English
+A Quiet Place,Horror,2018,90,7.5,John Krasinski,English
+Black Panther,Action,2018,134,7.3,Ryan Coogler,English
+Joker,Drama,2019,122,8.4,Todd Phillips,English
+Parasite,Thriller,2019,132,8.6,Bong Joon Ho,English
+1917,War,2019,119,8.3,Sam Mendes,English
+Once Upon a Time in Hollywood,Comedy,2019,161,7.6,Quentin Tarantino,English
+Tenet,Science Fiction,2020,150,7.4,Christopher Nolan,English
+Dune,Science Fiction,2021,155,8.0,Denis Villeneuve,English
+No Time to Die,Action,2021,163,7.3,Cary Joji Fukunaga,English
+The Batman,Action,2022,176,7.8,Matt Reeves,English
+Top Gun: Maverick,Action,2022,130,8.2,Joseph Kosinski,English
+Everything Everywhere All at Once,Science Fiction,2022,139,7.8,The Daniels,English
+Oppenheimer,History,2023,180,8.3,Christopher Nolan,English
+John Wick,Action,2014,101,7.4,Chad Stahelski,English
+John Wick: Chapter 2,Action,2017,122,7.5,Chad Stahelski,English
+John Wick: Chapter 3,Action,2019,131,7.4,Chad Stahelski,English
+Deadpool,Action,2016,108,8.0,Tim Miller,English
+Deadpool 2,Action,2018,119,7.7,David Leitch,English
+Logan,Action,2017,137,8.1,James Mangold,English
+The Dark Knight Rises,Action,2012,164,8.4,Christopher Nolan,English
+Iron Man,Action,2008,126,7.9,Jon Favreau,English
+Captain America: The Winter Soldier,Action,2014,136,7.8,Anthony and Joe Russo,English
+Guardians of the Galaxy,Action,2014,121,8.0,James Gunn,English
+Thor: Ragnarok,Action,2017,130,7.9,Taika Waititi,English
+Black Widow,Action,2021,134,6.7,Cate Shortland,English
+Spider-Man: No Way Home,Action,2021,148,8.2,Jon Watts,English
+The Suicide Squad,Action,2021,132,7.2,James Gunn,English
+The Northman,Action,2022,137,7.1,Robert Eggers,English
+Bullet Train,Action,2022,126,7.3,David Leitch,English
+The Gray Man,Action,2022,129,6.5,Anthony and Joe Russo,English
+The Tomorrow War,Science Fiction,2021,138,6.6,Chris McKay,English
+Free Guy,Comedy,2021,115,7.1,Shawn Levy,English
+Red Notice,Action,2021,118,6.3,Rawson Marshall Thurber,English
+The King's Man,Action,2021,131,6.3,Matthew Vaughn,English
+Uncharted,Adventure,2022,116,6.3,Ruben Fleischer,English
+The Lost City,Adventure,2022,112,6.1,Aaron Nee,English
+Jurassic World Dominion,Adventure,2022,147,5.7,Colin Trevorrow,English
+Doctor Strange in the Multiverse of Madness,Action,2022,126,6.9,Sam Raimi,English
+Thor: Love and Thunder,Action,2022,119,6.2,Taika Waititi,English
+Lightyear,Science Fiction,2022,105,6.1,Angus MacLane,English
+Elvis,Music,2022,159,7.3,Baz Luhrmann,English
+Nope,Horror,2022,135,6.8,Jordan Peele,English
+The Black Phone,Horror,2021,102,7.0,Scott Derrickson,English
+Smile,Horror,2022,115,6.5,Parker Finn,English
+Barbarian,Horror,2022,102,7.0,Zach Cregger,English
+X,Horror,2022,106,6.6,Ti West,English
+Pearl,Horror,2022,102,7.4,Ti West,English
+The Menu,Horror,2022,107,7.2,Mark Mylod,English
+M3GAN,Horror,2022,102,6.4,Gerard Johnstone,English
+Scream,Horror,2022,114,6.3,Matt Bettinelli-Olpin,English
+The Invisible Man,Horror,2020,124,7.1,Leigh Whannell,English
+A Quiet Place Part II,Horror,2020,97,7.2,John Krasinski,English
+The Conjuring: The Devil Made Me Do It,Horror,2021,111,6.3,Michael Chaves,English
+Malignant,Horror,2021,111,6.3,James Wan,English
+Old,Horror,2021,108,5.8,M. Night Shyamalan,English
+The Night House,Horror,2020,107,6.7,David Bruckner,English
+Saint Maud,Horror,2019,84,6.7,Rose Glass,English
+The Lighthouse,Horror,2019,109,7.4,Robert Eggers,English
+Midsommar,Horror,2019,148,7.1,Ari Aster,English
+Us,Horror,2019,116,6.8,Jordan Peele,English
+It Chapter Two,Horror,2019,169,6.5,Andy Muschietti,English
+Ready or Not,Horror,2019,95,6.8,Matt Bettinelli-Olpin,English
+Scary Stories to Tell in the Dark,Horror,2019,108,6.2,André Øvredal,English
+Child's Play,Horror,2019,90,5.7,Lars Klevberg,English
+The Nun,Horror,2018,96,5.3,Corin Hardy,English
+Halloween,Horror,2018,106,6.5,David Gordon Green,English
+The First Purge,Horror,2018,97,5.2,Gerard McMurray,English
+Hereditary,Horror,2018,127,7.3,Ari Aster,English
+A Quiet Place,Horror,2018,90,7.5,John Krasinski,English
+The Strangers: Prey at Night,Horror,2018,85,5.0,Johannes Roberts,English
+Insidious: The Last Key,Horror,2018,103,5.6,Adam Robitel,English
+The Meg,Horror,2018,113,5.6,Jon Turteltaub,English
+Bird Box,Horror,2018,124,6.6,Susanne Bier,English
+Annihilation,Horror,2018,115,6.8,Alex Garland,English
+The Cloverfield Paradox,Horror,2018,102,5.5,Julius Onah,English
+Slender Man,Horror,2018,93,3.2,Sylvain White,English
+The Possession of Hannah Grace,Horror,2018,85,4.8,Diederik Van Rooijen,English
+Winchester,Horror,2018,99,5.4,The Spierig Brothers,English
+Truth or Dare,Horror,2018,100,5.2,Jeff Wadlow,English
+The Prodigy,Horror,2019,100,6.2,Nicholas McCarthy,English
+Escape Room,Horror,2019,99,6.4,Adam Robitel,English
+Ma,Horror,2019,99,6.0,Tate Taylor,English
+Brightburn,Horror,2019,91,6.1,David Yarovesky,English
+Crawl,Horror,2019,87,6.1,Alexandre Aja,English
+Doctor Sleep,Horror,2019,152,7.3,Mike Flanagan,English
+Zombieland: Double Tap,Comedy,2019,99,6.7,Ruben Fleischer,English
+Good Boys,Comedy,2019,89,6.7,Gene Stupnitsky,English
+Long Shot,Comedy,2019,125,6.8,Jonathan Levine,English
+The Hustle,Comedy,2019,94,5.3,Chris Addison,English
+Late Night,Comedy,2019,102,6.5,Nisha Ganatra,English
+Booksmart,Comedy,2019,102,7.1,Olivia Wilde,English
+The Dead Don't Die,Comedy,2019,104,5.5,Jim Jarmusch,English
+Stuber,Comedy,2019,93,6.0,Michael Dowse,English
+Jexi,Comedy,2019,84,5.6,Jon Lucas,English
+The Kitchen,Crime,2019,102,4.8,Andrea Berloff,English
+The Informer,Crime,2019,113,6.5,Andrea Di Stefano,English
+21 Bridges,Crime,2019,99,6.6,Brian Kirk,English
+The Good Liar,Crime,2019,109,6.5,Bill Condon,English
+The Last Black Man in San Francisco,Drama,2019,120,7.3,Joe Talbot,English
+Waves,Drama,2019,135,7.6,Trey Edward Shults,English
+Honey Boy,Drama,2019,94,7.1,Alma Har'el,English
+The Peanut Butter Falcon,Drama,2019,97,7.6,Michael Schwartz,English
+Just Mercy,Drama,2019,137,7.6,Destin Daniel Cretton,English
+Bombshell,Drama,2019,109,6.8,Jay Roach,English
+Richard Jewell,Drama,2019,129,7.5,Clint Eastwood,English
+A Beautiful Day in the Neighborhood,Drama,2019,109,7.3,Marielle Heller,English
+The Two Popes,Drama,2019,125,7.6,Fernando Meirelles,English
+Ford v Ferrari,Action,2019,152,8.1,James Mangold,English
+Midway,War,2019,138,6.7,Roland Emmerich,English
+1917,War,2019,119,8.3,Sam Mendes,English
+Jojo Rabbit,Comedy,2019,108,7.9,Taika Waititi,English
+Knives Out,Mystery,2019,130,7.9,Rian Johnson,English
+Little Women,Drama,2019,135,7.8,Greta Gerwig,English
+Marriage Story,Drama,2019,137,7.9,Noah Baumbach,English
+The Irishman,Crime,2019,209,7.8,Martin Scorsese,English
+Once Upon a Time in Hollywood,Comedy,2019,161,7.6,Quentin Tarantino,English
+Joker,Drama,2019,122,8.4,Todd Phillips,English
+Parasite,Thriller,2019,132,8.6,Bong Joon Ho,English
+Avengers: Endgame,Action,2019,181,8.4,Anthony and Joe Russo,English
+Toy Story 4,Animation,2019,100,7.7,Josh Cooley,English
+Aladdin,Adventure,2019,128,6.9,Guy Ritchie,English
+The Lion King,Animation,2019,118,6.8,Jon Favreau,English
+Fast & Furious Presents: Hobbs & Shaw,Action,2019,137,6.4,David Leitch,English
+John Wick: Chapter 3 - Parabellum,Action,2019,131,7.4,Chad Stahelski,English
+Spider-Man: Far From Home,Action,2019,129,7.4,Jon Watts,English
+Captain Marvel,Action,2019,123,6.8,Anna Boden,English
+Shazam!,Action,2019,132,7.0,David F. Sandberg,English
+Godzilla: King of the Monsters,Action,2019,132,6.0,Michael Dougherty,English
+Dark Phoenix,Action,2019,114,5.7,Simon Kinberg,English
+Men in Black: International,Action,2019,115,5.6,F. Gary Gray,English
+Gemini Man,Action,2019,117,5.7,Ang Lee,English
+Rambo: Last Blood,Action,2019,89,6.1,Adrian Grunberg,English
+Terminator: Dark Fate,Action,2019,128,6.2,Tim Miller,English
+Charlie's Angels,Action,2019,118,4.8,Elizabeth Banks,English
+The Rhythm Section,Action,2020,109,5.4,Reed Morano,English
+Bloodshot,Action,2020,109,5.7,Dave Wilson,English
+The Old Guard,Action,2020,125,6.6,Gina Prince-Bythewood,English
+Project Power,Action,2020,113,6.0,Ariel Schulman,English
+Tenet,Science Fiction,2020,150,7.4,Christopher Nolan,English
+The Invisible Man,Horror,2020,124,7.1,Leigh Whannell,English
+Sonic the Hedgehog,Action,2020,99,6.5,Jeff Fowler,English
+Birds of Prey,Action,2020,109,6.1,Cathy Yan,English
+Bad Boys for Life,Action,2020,124,6.5,Adil El Arbi,English
+Wonder Woman 1984,Action,2020,151,5.4,Patty Jenkins,English
+Mulan,Action,2020,115,5.6,Niki Caro,English
+The New Mutants,Action,2020,94,5.3,Josh Boone,English
+Bill & Ted Face the Music,Comedy,2020,91,6.0,Dean Parisot,English
+The Lovebirds,Comedy,2020,86,6.1,Michael Showalter,English
+Eurovision Song Contest: The Story of Fire Saga,Comedy,2020,123,6.4,David Dobkin,English
+The King of Staten Island,Comedy,2020,136,7.1,Judd Apatow,English
+Palm Springs,Comedy,2020,90,7.4,Max Barbakow,English
+The Half of It,Comedy,2020,104,6.9,Alice Wu,English
+Onward,Animation,2020,102,7.4,Dan Scanlon,English
+Soul,Animation,2020,100,8.0,Pete Docter,English
+The Croods: A New Age,Animation,2020,95,6.9,Joel Crawford,English
+Over the Moon,Animation,2020,100,6.5,Glen Keane,English
+Wolfwalkers,Animation,2020,103,8.0,Tomm Moore,English
+The Trial of the Chicago 7,Drama,2020,129,7.7,Aaron Sorkin,English
+Mank,Drama,2020,131,6.8,David Fincher,English
+News of the World,Drama,2020,118,6.8,Paul Greengrass,English
+The Midnight Sky,Science Fiction,2020,118,5.6,George Clooney,English
+The Prom,Comedy,2020,131,5.2,Ryan Murphy,English
+Ma Rainey's Black Bottom,Music,2020,94,6.9,George C. Wolfe,English
+One Night in Miami,Drama,2020,114,7.1,Regina King,English
+The United States vs. Billie Holiday,Music,2021,130,6.7,Lee Daniels,English
+Cherry,Drama,2021,142,6.6,Anthony and Joe Russo,English
+The Little Things,Crime,2021,128,6.3,John Lee Hancock,English
+Judas and the Black Messiah,History,2021,126,7.4,Shaka King,English
+The Mauritanian,Drama,2021,129,7.4,Kevin Macdonald,English
+The Courier,Drama,2021,112,7.2,Dominic Cooke,English
+Those Who Wish Me Dead,Thriller,2021,100,6.0,Taylor Sheridan,English
+The Woman in the Window,Thriller,2021,100,5.7,Joe Wright,English
+The Guilty,Thriller,2021,90,6.3,Antoine Fuqua,English
+The Card Counter,Thriller,2021,111,6.2,Paul Schrader,English
+The Many Saints of Newark,Crime,2021,120,6.3,Alan Taylor,English
+The Last Duel,History,2021,152,7.4,Ridley Scott,English
+House of Gucci,Crime,2021,158,6.6,Ridley Scott,English
+King Richard,Drama,2021,144,7.5,Reinaldo Marcus Green,English
+Tick, Tick... Boom!,Music,2021,115,7.5,Lin-Manuel Miranda,English
+The Power of the Dog,Drama,2021,126,6.8,Jane Campion,English
+Don't Look Up,Comedy,2021,138,7.2,Adam McKay,English
+The Lost Daughter,Drama,2021,121,6.7,Maggie Gyllenhaal,English
+Passing,Drama,2021,98,6.7,Rebecca Hall,English
+CODA,Drama,2021,111,8.0,Sian Heder,English
+Belfast,Drama,2021,98,7.3,Kenneth Branagh,English
+Licorice Pizza,Comedy,2021,133,7.2,Paul Thomas Anderson,English
+Nightmare Alley,Thriller,2021,150,7.0,Guillermo del Toro,English
+West Side Story,Music,2021,156,7.2,Steven Spielberg,English
+Dune,Science Fiction,2021,155,8.0,Denis Villeneuve,English
+No Time to Die,Action,2021,163,7.3,Cary Joji Fukunaga,English
+Spider-Man: No Way Home,Action,2021,148,8.2,Jon Watts,English
+The Matrix Resurrections,Science Fiction,2021,148,5.7,Lana Wachowski,English
+Ghostbusters: Afterlife,Comedy,2021,124,7.1,Jason Reitman,English
+Eternals,Action,2021,156,6.3,Chloé Zhao,English
+Shang-Chi and the Legend of the Ten Rings,Action,2021,132,7.4,Destin Daniel Cretton,English
+Black Widow,Action,2021,134,6.7,Cate Shortland,English
+The Suicide Squad,Action,2021,132,7.2,James Gunn,English
+Free Guy,Comedy,2021,115,7.1,Shawn Levy,English
+Red Notice,Action,2021,118,6.3,Rawson Marshall Thurber,English
+The King's Man,Action,2021,131,6.3,Matthew Vaughn,English
+The Tomorrow War,Science Fiction,2021,138,6.6,Chris McKay,English
+Old,Horror,2021,108,5.8,M. Night Shyamalan,English
+A Quiet Place Part II,Horror,2020,97,7.2,John Krasinski,English
+The Conjuring: The Devil Made Me Do It,Horror,2021,111,6.3,Michael Chaves,English
+Malignant,Horror,2021,111,6.3,James Wan,English
+The Night House,Horror,2020,107,6.7,David Bruckner,English
+Pan's Labyrinth,Fantasy,2006,118,8.2,Guillermo del Toro,Spanish
+The Skin I Live In,Thriller,2011,120,7.6,Pedro Almodóvar,Spanish
+Volver,Drama,2006,121,7.6,Pedro Almodóvar,Spanish
+Talk to Her,Drama,2002,112,7.9,Pedro Almodóvar,Spanish
+All About My Mother,Drama,1999,101,7.9,Pedro Almodóvar,Spanish
+The Secret in Their Eyes,Drama,2009,129,8.2,Juan José Campanella,Spanish
+Nine Queens,Crime,2000,114,8.1,Fabián Bielinsky,Spanish
+Wild Tales,Comedy,2014,122,8.1,Damián Szifron,Spanish
+Son of the Bride,Comedy,2001,123,7.8,Juan José Campanella,Spanish
+The Official Story,Drama,1985,112,7.9,Luis Puenzo,Spanish
+Camila,Drama,1984,87,7.1,Maria Luisa Bemberg,Spanish
+The Aura,Thriller,2005,134,7.4,Fabián Bielinsky,Spanish
+On Probation,Comedy,2005,105,7.1,Damián Szifron,Spanish
+Waiting for the Hearse,Comedy,1985,87,8.2,Alejandro Doria,Spanish
+Chinese Take-Away,Comedy,2011,93,7.5,Sebastián Borensztein,Spanish
+The Clan,Crime,2015,108,7.3,Pablo Trapero,Spanish
+Carancho,Thriller,2010,107,6.9,Pablo Trapero,Spanish
+White Elephant,Drama,2012,115,6.9,Pablo Trapero,Spanish
+Eternal Ashes,Drama,2022,125,7.8,Marcelo Páez Cubells,Spanish
+Argentina,1985,History,2022,140,7.9,Santiago Mitre,Spanish
+The Heist of the Century,Crime,2020,114,7.1,Ariel Winograd,Spanish
+Heroic Losers,Comedy,2019,116,7.8,Sebastián Borensztein,Spanish
+The Dog Who Wouldn't Be Quiet,Drama,2021,73,6.8,Ana Katz,Spanish
+The Prince,Drama,2019,117,7.0,Sebastián Muñoz,Spanish
+The Summit,Drama,2017,114,5.9,Santiago Mitre,Spanish
+Zama,Drama,2017,115,6.8,Lucrecia Martel,Spanish
+The Swamp,Drama,2001,103,7.1,Lucrecia Martel,Spanish
+The Holy Girl,Drama,2004,106,6.8,Lucrecia Martel,Spanish
+The Headless Woman,Drama,2008,87,6.7,Lucrecia Martel,Spanish
+Roma,Drama,2018,135,7.7,Alfonso Cuarón,Spanish
+Y Tu Mamá También,Drama,2001,106,7.6,Alfonso Cuarón,Spanish
+The Crime of Father Amaro,Drama,2002,118,6.7,Carlos Carrera,Spanish
+Love's a Bitch,Drama,2000,154,8.1,Alejandro González Iñárritu,Spanish
+Biutiful,Drama,2010,148,7.5,Alejandro González Iñárritu,Spanish
+Babel,Drama,2006,143,7.4,Alejandro González Iñárritu,Spanish
+El Mariachi,Action,1992,81,6.9,Robert Rodriguez,Spanish
+Desperado,Action,1995,104,7.2,Robert Rodriguez,Spanish
+Like Water for Chocolate,Drama,1992,113,7.2,Alfonso Arau,Spanish
+The Inferno,Comedy,2010,145,8.3,Luis Estrada,Spanish
+Herod's Law,Comedy,1999,120,7.8,Luis Estrada,Spanish
+Midaq Alley,Drama,1995,140,7.9,Jorge Fons,Spanish
+Cronos,Horror,1993,94,6.7,Guillermo del Toro,Spanish
+The Devil's Backbone,Horror,2001,106,7.4,Guillermo del Toro,Spanish
+[Rec],Horror,2007,78,7.4,Jaume Balagueró,Spanish
+The Orphanage,Horror,2007,105,7.4,J.A. Bayona,Spanish
+Sleep Tight,Thriller,2011,102,7.3,Jaume Balagueró,Spanish
+The Hidden Face,Thriller,2011,97,7.2,Andrés Baiz,Spanish
+Cell 211,Thriller,2009,113,7.7,Daniel Monzón,Spanish
+The Body,Thriller,2012,112,7.5,Oriol Paulo,Spanish
+The Invisible Guest,Thriller,2016,106,8.0,Oriol Paulo,Spanish
+During the Storm,Thriller,2018,128,7.4,Oriol Paulo,Spanish
+Mirage,Science Fiction,2018,128,7.4,Oriol Paulo,Spanish
+The Others,Horror,2001,104,7.6,Alejandro Amenábar,Spanish
+The Sea Inside,Drama,2004,126,8.0,Alejandro Amenábar,Spanish
+Open Your Eyes,Science Fiction,1997,119,7.7,Alejandro Amenábar,Spanish
+Thesis,Thriller,1996,125,7.6,Alejandro Amenábar,Spanish
+The Forest,Thriller,2012,87,5.2,David Pastor,Spanish
+Marshland,Thriller,2014,105,7.6,Alberto Rodríguez,Spanish
+The Man with Thousand Faces,Drama,2016,123,6.7,Alberto Rodríguez,Spanish
+Unit 7,Thriller,2012,96,6.4,Alberto Rodríguez,Spanish
+The Match Seller,Drama,2022,95,7.2,Alejo Moguillansky,Spanish
+The Companion,Drama,2015,88,6.9,Pavel Giroud,Spanish
+Behavior,Drama,2014,108,7.7,Ernesto Daranas,Spanish
+Strawberry and Chocolate,Drama,1993,108,7.7,Tomás Gutiérrez Alea,Spanish
+Memories of Underdevelopment,Drama,1968,97,7.8,Tomás Gutiérrez Alea,Spanish
+Bad Education,Drama,2004,105,7.5,Pedro Almodóvar,Spanish
+Lovers of the Arctic Circle,Romance,1998,112,7.7,Julio Médem,Spanish
+Sex and Lucía,Romance,2001,128,7.3,Julio Médem,Spanish
+Cows,Drama,1992,96,7.1,Julio Médem,Spanish
+The Red Squirrel,Drama,1993,114,7.0,Julio Médem,Spanish
+High Heels,Drama,1991,112,7.4,Pedro Almodóvar,Spanish
+Tie Me Up! Tie Me Down!,Drama,1989,101,7.2,Pedro Almodóvar,Spanish
+Women on the Verge of a Nervous Breakdown,Comedy,1988,89,7.6,Pedro Almodóvar,Spanish
+Kika,Comedy,1993,115,6.5,Pedro Almodóvar,Spanish
+The Flower of My Secret,Drama,1995,103,7.3,Pedro Almodóvar,Spanish
+Live Flesh,Drama,1997,101,7.5,Pedro Almodóvar,Spanish
+All About My Mother,Drama,1999,101,7.9,Pedro Almodóvar,Spanish
+Bad Education,Drama,2004,105,7.5,Pedro Almodóvar,Spanish
+Broken Embraces,Drama,2009,127,7.3,Pedro Almodóvar,Spanish
+Mondays in the Sun,Drama,2002,113,7.5,Fernando León de Aranoa,Spanish
+The Neighborhood,Drama,1998,94,7.4,Fernando León de Aranoa,Spanish
+Princesses,Drama,2005,113,7.4,Fernando León de Aranoa,Spanish
+A Perfect Day,Comedy,2015,106,6.8,Fernando León de Aranoa,Spanish
+The Olive Tree,Drama,2016,98,6.9,Icíar Bollaín,Spanish
+Even the Rain,Drama,2010,104,7.5,Icíar Bollaín,Spanish
+Take My Eyes,Drama,2003,109,7.6,Icíar Bollaín,Spanish
+Flowers from Another World,Drama,1999,103,7.2,Icíar Bollaín,Spanish
+Katakrak,Documentary,2020,75,7.1,Icíar Bollaín,Spanish
+A Twelve-Year Night,Drama,2018,122,7.6,Álvaro Brechner,Spanish
+Bad Day to Go Fishing,Comedy,2020,107,6.7,Álvaro Brechner,Spanish
+Mr. Kaplan,Comedy,2014,98,7.1,Álvaro Brechner,Spanish
+The Life of Fish,Drama,2010,84,7.3,Matías Bize,Spanish
+In Bed,Drama,2005,86,6.9,Matías Bize,Spanish
+The Good Side of Crying,Comedy,2022,95,6.8,Matías Gueilburt,Spanish
+Tomy's Notebook,Drama,2020,82,6.5,Carlos Sorin,Spanish
+The Movie of Life,Drama,2021,105,7.0,Carlos Sorin,Spanish
+Bombón: The Dog,Drama,2004,98,7.3,Carlos Sorin,Spanish
+The Window,Drama,2008,85,7.1,Carlos Sorin,Spanish
+Roma,Documentary,2004,148,7.8,Adolfo Aristarain,Spanish
+A Place in the World,Drama,1992,120,7.8,Adolfo Aristarain,Spanish
+Wild Tango,Drama,1993,125,7.2,Marcelo Piñeyro,Spanish
+Wild Horses,Drama,1995,125,7.4,Marcelo Piñeyro,Spanish
+Ashes from Paradise,Drama,1997,115,7.1,Marcelo Piñeyro,Spanish
+Burnt Money,Crime,2000,125,7.2,Marcelo Piñeyro,Spanish
+Kamchatka,Drama,2002,106,7.5,Marcelo Piñeyro,Spanish
+The Method,Thriller,2005,115,7.0,Marcelo Piñeyro,Spanish
+The Widows of Thursdays,Drama,2009,102,6.2,Marcelo Piñeyro,Spanish
+The Lighthouse of the Orcas,Drama,2016,114,7.1,Gerardo Olivares,Spanish
+Among Wolves,Drama,2010,115,7.2,Gerardo Olivares,Spanish
+Sons of the Clouds,Documentary,2012,88,7.5,Álvaro Longoria,Spanish
+Gun City,Thriller,2018,129,6.2,Dani de la Torre,Spanish
+The Motive,Drama,2017,108,6.9,Manuel Martín Cuenca,Spanish
+Cannibal,Drama,2013,119,6.4,Manuel Martín Cuenca,Spanish
+Half of Heaven,Drama,1986,127,7.1,Manuel Gutiérrez Aragón,Spanish
+Demons in the Garden,Drama,1982,100,7.3,Manuel Gutiérrez Aragón,Spanish
+The Longest Night,Thriller,1991,120,6.8,José Luis García Sánchez,Spanish
+Divine Words,Drama,1987,108,7.0,José Luis García Sánchez,Spanish
+Pharaoh's Court,Comedy,1985,93,6.5,José Luis García Sánchez,Spanish
+Voyage to Nowhere,Drama,1986,140,7.5,Fernando Fernán Gómez,Spanish
+The Stranger,Drama,2022,98,7.3,Nacho Garassino,Spanish
+The Last Summit,Documentary,2010,105,7.6,Juan Manuel Cotelo,Spanish
+The Boat,War,1981,149,8.3,Wolfgang Petersen,German
+The Lives of Others,Drama,2006,137,8.4,Florian Henckel von Donnersmarck,German
+Good Bye Lenin!,Comedy,2003,121,7.7,Wolfgang Becker,German
+Downfall,Drama,2004,156,8.2,Oliver Hirschbiegel,German
+Run Lola Run,Thriller,1998,81,7.6,Tom Tykwer,German
+Perfume: The Story of a Murderer,Crime,2006,147,7.5,Tom Tykwer,German
+The Counterfeiters,Crime,2007,98,7.6,Stefan Ruzowitzky,German
+Victoria,Thriller,2015,138,7.6,Sebastian Schipper,German
+System Crasher,Drama,2019,118,7.6,Nora Fingscheidt,German
+Toni Erdmann,Comedy,2016,162,7.3,Maren Ade,German
+The Wave,Drama,2008,107,7.6,Dennis Gansel,German
+The White Ribbon,Drama,2009,144,7.8,Michael Haneke,German
+The Baader Meinhof Complex,Crime,2008,150,7.4,Uli Edel,German
+Head-On,Drama,2004,121,7.9,Fatih Akin,German
+In the Fade,Thriller,2017,106,7.3,Fatih Akin,German
+In July,Comedy,2000,99,7.4,Fatih Akin,German
+Soul Kitchen,Comedy,2009,93,7.1,Fatih Akin,German
+Wings of Desire,Drama,1987,128,8.0,Wim Wenders,German
+Hannah Arendt,Drama,2012,113,7.1,Margarethe von Trotta,German
+The Tin Drum,Drama,1979,142,7.5,Volker Schlöndorff,German
+Aguirre, the Wrath of God,Adventure,1972,95,7.8,Werner Herzog,German
+Fitzcarraldo,Adventure,1982,158,8.0,Werner Herzog,German
+Nosferatu the Vampyre,Horror,1979,107,7.5,Werner Herzog,German
+Young Törless,Drama,1966,87,7.4,Volker Schlöndorff,German
+M,Crime,1931,117,8.3,Fritz Lang,German
+Metropolis,Science Fiction,1927,153,8.3,Fritz Lang,German
+The Cabinet of Dr. Caligari,Horror,1920,78,8.1,Robert Wiene,German
+The Marriage of Maria Braun,Drama,1979,120,7.9,Rainer Werner Fassbinder,German
+Lili Marleen,Drama,1981,120,6.6,Rainer Werner Fassbinder,German
+Berlin Alexanderplatz,Drama,1980,931,8.2,Rainer Werner Fassbinder,German
+The American Friend,Crime,1977,127,7.5,Wim Wenders,German
+Wings of Desire,Drama,1987,128,8.0,Wim Wenders,German
+Paris, Texas,Drama,1984,145,8.1,Wim Wenders,German
+Stroszek,Drama,1977,108,7.9,Werner Herzog,German
+The Enigma of Kaspar Hauser,Drama,1974,110,8.0,Werner Herzog,German
+Suck Me Shakespeer,Comedy,2013,119,6.9,Bora Dagtekin,German
+Fack ju Göhte 2,Comedy,2015,116,6.8,Bora Dagtekin,German
+Fack ju Göhte 3,Comedy,2017,123,6.4,Bora Dagtekin,German
+Who Am I,Thriller,2014,102,7.6,Baran bo Odar,German
+Dark,Science Fiction,2017,60,8.7,Baran bo Odar,German
+The Dark Valley,Western,2014,115,7.2,Andreas Prochaska,German
+The Bunker,Thriller,2015,85,6.1,Nikias Chryssos,German
+Goodbye Berlin,Comedy,2016,93,6.9,Fatih Akin,German
+Never Look Away,Drama,2018,189,7.7,Florian Henckel von Donnersmarck,German
+Nowhere in Africa,Drama,2001,141,7.7,Caroline Link,German
+Beyond Silence,Drama,1996,109,7.6,Caroline Link,German
+Kings of the Road,Drama,1976,176,8.0,Wim Wenders,German
+Heaven Can Wait,Comedy,2022,125,6.8,Michael Herbig,German
+Lissi and the Wild Emperor,Comedy,2007,85,5.8,Michael Herbig,German
+The Shoe of Manitu,Comedy,2001,87,7.2,Michael Herbig,German
+Dreamship Surprise,Science Fiction,2004,87,5.3,Michael Herbig,German
+Balloon,Thriller,2018,125,7.3,Michael Herbig,German
+The Miracle of Bern,Drama,2003,118,7.4,Sönke Wortmann,German
+Maybe, Maybe Not,Comedy,1994,90,7.0,Sönke Wortmann,German
+Stalingrad,War,1993,134,7.5,Joseph Vilsmaier,German
+The Harmonists,Music,1997,126,7.3,Joseph Vilsmaier,German
+Night Shapes,Drama,1999,103,7.1,Andreas Dresen,German
+Grill Point,Drama,2002,110,7.0,Andreas Dresen,German
+Willenbrock,Comedy,2005,115,6.5,Andreas Dresen,German
+Cloud 9,Drama,2008,98,7.2,Andreas Dresen,German
+Stopped on Track,Drama,2011,110,7.5,Andreas Dresen,German
+Rabiye Kurnaz vs. George W. Bush,Drama,2022,116,7.1,Andreas Dresen,German
+The People vs. Fritz Bauer,Drama,2015,105,7.3,Lars Kraume,German
+The Classroom,Drama,2018,119,7.5,Ilker Çatak,German
+The Teachers' Lounge,Drama,2023,98,7.8,Ilker Çatak,German
+All Quiet on the Western Front,War,2022,148,7.8,Edward Berger,German
+The Lost Honor of Katharina Blum,Crime,1975,106,7.7,Volker Schlöndorff,German
+The Nasty Girl,Drama,1990,94,7.4,Michael Verhoeven,German
+The Last Train,Drama,2006,158,7.3,Joseph Vilsmaier,German
+The Experiment,Thriller,2001,119,7.7,Oliver Hirschbiegel,German
+The Edukators,Drama,2004,127,7.3,Hans Weingartner,German
+The Free Will,Drama,2006,163,7.4,Matthias Glasner,German
+This Very Moment,Drama,2003,105,7.0,Matthias Glasner,German
+Heil,Drama,2023,121,7.2,Dietrich Brüggemann,German
+A Heavy Heart,Drama,2015,91,7.1,Thomas Stuber,German
+In the Aisles,Drama,2018,125,7.2,Thomas Stuber,German
+The Space Between the Lines,Drama,2019,111,6.8,Vanessa Jopp,German
+The Most Beautiful Girl in the World,Comedy,2018,105,6.5,Aron Lehmann,German
+The Bloom of Yesterday,Comedy,2016,113,6.7,Chris Kraus,German
+The People vs. Fritz Bauer,Drama,2015,105,7.3,Lars Kraume,German
+The Silent Revolution,Drama,2018,111,7.4,Lars Kraume,German
+The Collini Case,Crime,2019,123,7.2,Marco Kreuzpaintner,German
+The Captain,Drama,2017,118,7.7,Robert Schwentke,German
+Berlin Syndrome,Thriller,2017,116,6.3,Cate Shortland,German
+Wetlands,Comedy,2013,109,5.8,David Wnendt,German
+Kriegerin,Drama,2011,103,6.8,David Wnendt,German
+Look Who's Back,Comedy,2015,116,6.8,David Wnendt,German
+The Kangaroo Chronicles,Comedy,2020,130,6.3,Julius Schmitt,German
+The Robber,Drama,2010,101,6.6,Benjamin Heisenberg,German
+Sleeper,Thriller,2005,85,6.5,Benjamin Heisenberg,German
+The Forest for the Trees,Drama,2003,81,7.0,Maren Ade,German
+Everyone Else,Drama,2009,119,7.1,Maren Ade,German
+Toni Erdmann,Comedy,2016,162,7.3,Maren Ade,German
+Free Fall,Drama,2013,100,7.4,Stephan Lacant,German
+Center of My World,Drama,2016,115,7.0,Jakob M. Erwa,German
+The Dreamed Path,Drama,2016,86,6.3,Angela Schanelec,German
+I Was at Home, But,Drama,2019,105,6.5,Angela Schanelec,German
+Marlene,Drama,2000,135,6.8,Joseph Vilsmaier,German
+The Ninth Day,Drama,2004,98,7.4,Volker Schlöndorff,German
+The Legend of Rita,Drama,2000,103,7.2,Volker Schlöndorff,German
+The Blind Spot,Drama,2021,128,7.3,Claudia Lehmann,German
+Curveball,Comedy,2020,116,6.5,Johannes Naber,German
+The Last Word,Drama,2022,109,7.0,Alexandra Senfft,German
+The Ordinaries,Drama,2022,115,6.9,Sören Hüper,German
+Sunjuta,Drama,2023,98,7.1,Simon Jaquemet,German
+Black Ice,Thriller,2023,95,6.9,Michael Krummenacher,German
+The Theory of Everything,Documentary,2022,105,7.4,Timm Kröger,German
+The Fox,Drama,2022,115,7.0,Adrian Goiginger,German
+The Magic Mountain,Drama,2022,132,6.8,Anca Miruna Lăzărescu,German
+Roh,Drama,2023,108,7.2,Isabell Šuba,German
+The School of Magical Animals,Family,2021,93,6.1,Gregor Schnitzler,German
+The Robber Hotzenplotz,Family,2022,105,6.4,Michał Rogalski,German
+Checkered Ninja,Animation,2018,85,6.7,Anders Matthesen,German
+Latte & the Magic Waterstone,Animation,2019,79,6.2,Regina Welker,German
+The Amazing Maurice,Animation,2022,93,6.5,Toby Genkel,German
+The Canterville Ghost,Family,2023,95,6.4,Kim Burdon,German
+The Last Whale Hunter,Adventure,2022,105,6.6,Bernhard Pucher,German
+The Dive,Thriller,2023,91,6.4,Maximilian Erlenwein,German
+The Forger,Thriller,2022,116,6.8,Maggie Peren,German
+The Seed,Science Fiction,2021,103,5.9,Mia Maariel Meyer,German
+Blood Red Sky,Horror,2021,121,6.1,Peter Thorwarth,German
+Nightmare,Horror,2015,96,5.8,Achim Bornhak,German
+Happiness,Horror,2016,95,5.9,Sven Taddicken,German
+The Dark,Horror,2016,95,5.5,Justin P. Lange,German
+Luz,Horror,2018,70,5.8,Tilman Singer,German
+The Uncanny,Horror,2015,128,6.2,Richard Raaphorst,German
+Stigma,Horror,2022,98,5.9,Thomas Roth,German
+The Black Forest,Horror,2023,102,5.7,Tommy Krappweis,German
+School of Fear,Horror,2023,95,5.8,Thorsten Wettcke,German
+The Moor,Horror,2023,89,5.6,Chris Cronin,German
+The Great Beauty,Drama,2013,142,7.7,Paolo Sorrentino,Italian
+La Dolce Vita,Drama,1960,174,8.0,Federico Fellini,Italian
+8½,Drama,1963,138,8.0,Federico Fellini,Italian
+Cinema Paradiso,Drama,1988,155,8.5,Giuseppe Tornatore,Italian
+Life Is Beautiful,Comedy,1997,116,8.6,Roberto Benigni,Italian
+Bicycle Thieves,Drama,1948,89,8.3,Vittorio De Sica,Italian
+The Conformist,Drama,1970,113,8.0,Bernardo Bertolucci,Italian
+The Last Emperor,History,1987,163,7.7,Bernardo Bertolucci,Italian
+The Leopard,History,1963,186,8.0,Luchino Visconti,Italian
+Rocco and His Brothers,Drama,1960,177,8.1,Luchino Visconti,Italian
+Suspiria,Horror,1977,98,7.4,Dario Argento,Italian
+Deep Red,Horror,1975,126,7.6,Dario Argento,Italian
+The Bird with the Crystal Plumage,Thriller,1970,96,7.6,Dario Argento,Italian
+The Good, the Bad and the Ugly,Western,1966,178,8.8,Sergio Leone,Italian
+Once Upon a Time in the West,Western,1968,165,8.5,Sergio Leone,Italian
+A Fistful of Dollars,Western,1964,99,8.0,Sergio Leone,Italian
+For a Few Dollars More,Western,1965,132,8.2,Sergio Leone,Italian
+Once Upon a Time in America,Crime,1984,229,8.4,Sergio Leone,Italian
+The Great Silence,Western,1968,105,7.6,Sergio Corbucci,Italian
+Divorce Italian Style,Comedy,1961,104,8.1,Pietro Germi,Italian
+Seduced and Abandoned,Comedy,1964,118,7.9,Pietro Germi,Italian
+Investigation of a Citizen Above Suspicion,Crime,1970,112,8.0,Elio Petri,Italian
+The Working Class Goes to Heaven,Drama,1971,125,7.8,Elio Petri,Italian
+We All Loved Each Other So Much,Comedy,1974,124,8.2,Ettore Scola,Italian
+A Special Day,Drama,1977,106,8.0,Ettore Scola,Italian
+The Garden of the Finzi-Continis,Drama,1970,94,7.7,Vittorio De Sica,Italian
+Umberto D.,Drama,1952,89,8.2,Vittorio De Sica,Italian
+Miracle in Milan,Fantasy,1951,100,7.9,Vittorio De Sica,Italian
+La Strada,Drama,1954,108,8.1,Federico Fellini,Italian
+Nights of Cabiria,Drama,1957,110,8.1,Federico Fellini,Italian
+Amarcord,Drama,1973,123,8.0,Federico Fellini,Italian
+I Vitelloni,Drama,1953,109,7.8,Federico Fellini,Italian
+Juliet of the Spirits,Fantasy,1965,137,7.7,Federico Fellini,Italian
+The Night,Drama,1961,122,8.1,Michelangelo Antonioni,Italian
+L'Avventura,Drama,1960,144,7.9,Michelangelo Antonioni,Italian
+Red Desert,Drama,1964,117,7.7,Michelangelo Antonioni,Italian
+Blow-Up,Thriller,1966,111,7.6,Michelangelo Antonioni,Italian
+The Passenger,Drama,1975,126,7.6,Michelangelo Antonioni,Italian
+Accattone,Drama,1961,120,7.7,Pier Paolo Pasolini,Italian
+The Gospel According to St. Matthew,History,1964,137,7.7,Pier Paolo Pasolini,Italian
+Hawks and Sparrows,Comedy,1966,88,7.4,Pier Paolo Pasolini,Italian
+Teorema,Drama,1968,98,7.4,Pier Paolo Pasolini,Italian
+Salo, or the 120 Days of Sodom,Drama,1975,117,6.0,Pier Paolo Pasolini,Italian
+The Tree of Wooden Clogs,Drama,1978,186,8.1,Ermanno Olmi,Italian
+Il Postino,Drama,1994,108,7.7,Michael Radford,Italian
+The Best of Youth,Drama,2003,366,8.5,Marco Tullio Giordana,Italian
+The Unknown Woman,Thriller,2006,118,7.5,Giuseppe Tornatore,Italian
+Malèna,Drama,2000,109,7.4,Giuseppe Tornatore,Italian
+Everybody's Fine,Drama,1990,118,7.6,Giuseppe Tornatore,Italian
+The Star Maker,Drama,1995,113,7.3,Giuseppe Tornatore,Italian
+The Consequences of Love,Drama,2004,100,7.4,Paolo Sorrentino,Italian
+The Family Friend,Drama,2006,102,6.8,Paolo Sorrentino,Italian
+Il Divo,Drama,2008,110,7.3,Paolo Sorrentino,Italian
+This Must Be the Place,Drama,2011,118,6.5,Paolo Sorrentino,Italian
+Youth,Drama,2015,124,7.3,Paolo Sorrentino,Italian
+Loro,Drama,2018,150,6.3,Paolo Sorrentino,Italian
+The Hand of God,Drama,2021,130,7.4,Paolo Sorrentino,Italian
+Gomorrah,Crime,2008,137,7.1,Matteo Garrone,Italian
+Reality,Drama,2012,116,7.2,Matteo Garrone,Italian
+Tale of Tales,Fantasy,2015,134,6.4,Matteo Garrone,Italian
+Dogman,Crime,2018,103,7.2,Matteo Garrone,Italian
+Pinocchio,Fantasy,2019,125,6.2,Matteo Garrone,Italian
+Io Capitano,Drama,2023,121,7.7,Matteo Garrone,Italian
+The Great Mother,Drama,2023,118,6.8,Giovanni Veronesi,Italian
+Perfect Strangers,Comedy,2016,97,7.7,Paolo Genovese,Italian
+The Place,Drama,2017,105,7.2,Paolo Genovese,Italian
+The Invisible Witness,Thriller,2018,102,7.6,Stefano Mordini,Italian
+The Traitor,Crime,2019,145,7.3,Marco Bellocchio,Italian
+Vincere,Drama,2009,128,7.2,Marco Bellocchio,Italian
+My Mother's Smile,Drama,2002,105,7.0,Marco Bellocchio,Italian
+The Wedding Director,Comedy,2006,98,6.1,Marco Bellocchio,Italian
+Devil in the Flesh,Drama,1986,110,6.3,Marco Bellocchio,Italian
+The Eyes, the Mouth,Drama,1982,100,7.1,Marco Bellocchio,Italian
+The Witches,Drama,1967,110,7.2,Franco Rossi,Italian
+The Night of the Shooting Stars,Drama,1982,106,7.9,Paolo Taviani,Italian
+Padre Padrone,Drama,1977,114,7.6,Paolo Taviani,Italian
+The Meadow,Drama,1979,120,7.3,Paolo Taviani,Italian
+Night Sun,Drama,1990,112,7.0,Paolo Taviani,Italian
+Caesar Must Die,Drama,2012,76,7.3,Paolo Taviani,Italian
+Rainbow: A Private Affair,War,2017,100,5.4,Paolo Taviani,Italian
+The First King: Birth of an Empire,History,2019,127,5.9,Matteo Rovere,Italian
+Diabolik,Action,2021,133,6.1,Manetti Bros.,Italian
+The Best Years,Drama,2020,118,7.4,Gabriele Muccino,Italian
+The Last Kiss,Comedy,2001,115,7.2,Gabriele Muccino,Italian
+Remember Me,Drama,2003,125,7.1,Gabriele Muccino,Italian
+There's No Place Like Home,Comedy,2010,120,6.5,Gabriele Muccino,Italian
+But Forever in My Mind,Drama,2018,95,6.9,Gabriele Muccino,Italian
+The Ignorant Angels,Drama,2022,130,6.8,Ferzan Özpetek,Italian
+His Secret Life,Drama,2001,106,7.2,Ferzan Özpetek,Italian
+Facing Windows,Drama,2003,106,7.5,Ferzan Özpetek,Italian
+Saturn in Opposition,Drama,2007,113,7.1,Ferzan Özpetek,Italian
+A Perfect Day,Drama,2008,105,6.9,Ferzan Özpetek,Italian
+Mine Vaganti,Comedy,2010,110,7.2,Ferzan Özpetek,Italian
+Fasten Your Seatbelts,Comedy,2014,110,6.4,Ferzan Özpetek,Italian
+Naples in Veils,Thriller,2017,113,5.9,Ferzan Özpetek,Italian
+The Goddess of Fortune,Comedy,2019,118,6.3,Ferzan Özpetek,Italian
+The Last Paradiso,Drama,2021,110,6.5,Rocco Ricciardulli,Italian
+The Predators,Crime,2020,102,6.2,Pietro Castellitto,Italian
+The Catholic School,Drama,2021,120,5.8,Stefano Mordini,Italian
+The Hummingbird,Drama,2022,124,7.1,Francesca Archibugi,Italian
+Dry,Drama,2022,115,7.3,Paolo Virzì,Italian
+The Leisure Seeker,Drama,2017,112,7.0,Paolo Virzì,Italian
+Human Capital,Drama,2013,111,7.3,Paolo Virzì,Italian
+The First Beautiful Thing,Comedy,2010,122,7.4,Paolo Virzì,Italian
+Like a Cat on a Highway,Comedy,2023,100,6.7,Riccardo Milani,Italian
+Welcome Mr. President!,Comedy,2013,98,6.8,Riccardo Milani,Italian
+I Can Quit Whenever I Want,Comedy,2014,100,6.9,Sydney Sibilia,Italian
+I Can Quit Whenever I Want 2,Comedy,2015,110,6.7,Sydney Sibilia,Italian
+I Can Quit Whenever I Want 3,Comedy,2017,118,6.5,Sydney Sibilia,Italian
+Smartphone,Comedy,2022,105,5.9,Alessandro Genovesi,Italian
+The Christmas Show,Comedy,2022,120,5.8,Aldo, Giovanni & Giacomo,Italian
+The Worst Christmas of My Life,Comedy,2012,90,6.4,Alessandro Genovesi,Italian
+A Haunting in Venice,Thriller,2023,103,6.5,Kenneth Branagh,Italian
+The White Sheik,Comedy,1952,86,7.4,Federico Fellini,Italian
+The Swindle,Comedy,1955,106,7.3,Federico Fellini,Italian
+Nights of Cabiria,Drama,1957,110,8.1,Federico Fellini,Italian
+La Dolce Vita,Drama,1960,174,8.0,Federico Fellini,Italian
+8½,Drama,1963,138,8.0,Federico Fellini,Italian
+Juliet of the Spirits,Fantasy,1965,137,7.7,Federico Fellini,Italian
+Satyricon,Fantasy,1969,129,6.8,Federico Fellini,Italian
+Roma,Drama,1972,128,7.2,Federico Fellini,Italian
+Amarcord,Drama,1973,123,8.0,Federico Fellini,Italian
+And the Ship Sails On,Comedy,1983,138,7.3,Federico Fellini,Italian
+Ginger and Fred,Comedy,1986,126,6.8,Federico Fellini,Italian
+Intervista,Comedy,1987,105,7.1,Federico Fellini,Italian
+The Voice of the Moon,Comedy,1990,120,6.6,Federico Fellini,Italian
+Boccaccio '70,Comedy,1962,150,6.9,Federico Fellini,Italian
+Spirits of the Dead,Horror,1968,121,6.5,Federico Fellini,Italian
+The Clowns,Documentary,1970,92,7.1,Federico Fellini,Italian
+Fellini's Casanova,Drama,1976,155,6.8,Federico Fellini,Italian
+Orchestra Rehearsal,Comedy,1978,72,7.0,Federico Fellini,Italian
+City of Women,Comedy,1980,140,6.8,Federico Fellini,Italian
+And the Ship Sails On,Comedy,1983,138,7.3,Federico Fellini,Italian
+Ginger and Fred,Comedy,1986,126,6.8,Federico Fellini,Italian
+Intervista,Comedy,1987,105,7.1,Federico Fellini,Italian
+The Voice of the Moon,Comedy,1990,120,6.6,Federico Fellini,Italian
+The Intouchables,Comedy,2011,112,8.5,Olivier Nakache,French
+Amélie,Comedy,2001,122,8.3,Jean-Pierre Jeunet,French
+La Haine,Drama,1995,98,8.1,Mathieu Kassovitz,French
+The Artist,Comedy,2011,100,7.9,Michel Hazanavicius,French
+Blue Is the Warmest Colour,Drama,2013,180,7.7,Abdellatif Kechiche,French
+A Prophet,Crime,2009,155,7.8,Jacques Audiard,French
+The Beat That My Heart Skipped,Drama,2005,107,7.3,Jacques Audiard,French
+Rust and Bone,Drama,2012,120,7.5,Jacques Audiard,French
+Dheepan,Drama,2015,115,7.0,Jacques Audiard,French
+The Sisters Brothers,Western,2018,121,6.8,Jacques Audiard,French
+Breathless,Drama,1960,90,7.8,Jean-Luc Godard,French
+Contempt,Drama,1963,103,7.6,Jean-Luc Godard,French
+Pierrot le Fou,Crime,1965,110,7.6,Jean-Luc Godard,French
+Band of Outsiders,Drama,1964,97,7.7,Jean-Luc Godard,French
+The 400 Blows,Drama,1959,99,8.1,François Truffaut,French
+Jules and Jim,Drama,1962,105,7.8,François Truffaut,French
+Day for Night,Drama,1973,116,8.0,François Truffaut,French
+The Last Metro,Drama,1980,131,7.5,François Truffaut,French
+Stolen Kisses,Comedy,1968,90,7.5,François Truffaut,French
+The Umbrellas of Cherbourg,Musical,1964,91,7.8,Jacques Demy,French
+The Young Girls of Rochefort,Musical,1967,120,7.8,Jacques Demy,French
+Diabolique,Thriller,1955,117,8.1,Henri-Georges Clouzot,French
+The Wages of Fear,Thriller,1953,131,8.2,Henri-Georges Clouzot,French
+Le Samouraï,Crime,1967,105,8.0,Jean-Pierre Melville,French
+Army of Shadows,War,1969,145,8.1,Jean-Pierre Melville,French
+Le Cercle Rouge,Crime,1970,140,7.9,Jean-Pierre Melville,French
+Bob le Flambeur,Crime,1956,102,7.5,Jean-Pierre Melville,French
+The Discreet Charm of the Bourgeoisie,Comedy,1972,102,7.9,Luis Buñuel,French
+Belle de Jour,Drama,1967,100,7.7,Luis Buñuel,French
+That Obscure Object of Desire,Drama,1977,103,7.7,Luis Buñuel,French
+The Rules of the Game,Comedy,1939,110,7.9,Jean Renoir,French
+Grand Illusion,War,1937,113,8.1,Jean Renoir,French
+La Bête Humaine,Drama,1938,100,7.5,Jean Renoir,French
+The Crime of Monsieur Lange,Comedy,1936,80,7.6,Jean Renoir,French
+Children of Paradise,Drama,1945,190,8.3,Marcel Carné,French
+Port of Shadows,Drama,1938,91,7.8,Marcel Carné,French
+Le Jour Se Lève,Drama,1939,93,7.8,Marcel Carné,French
+Eyes Without a Face,Horror,1960,90,7.7,Georges Franju,French
+Judex,Crime,1963,97,7.1,Georges Franju,French
+La Jetée,Science Fiction,1962,28,8.2,Chris Marker,French
+Sans Soleil,Documentary,1983,100,8.1,Chris Marker,French
+The Red Circle,Crime,1970,140,7.9,Jean-Pierre Melville,French
+Un Prophète,Crime,2009,155,7.8,Jacques Audiard,French
+The Class,Drama,2008,128,7.5,Laurent Cantet,French
+Time Out,Drama,2001,134,7.2,Laurent Cantet,French
+Heading South,Drama,2005,108,6.7,Laurent Cantet,French
+Foxfire,Drama,2012,143,6.4,Laurent Cantet,French
+The Measure of a Man,Drama,2015,93,7.4,Stéphane Brizé,French
+Mademoiselle Chambon,Drama,2009,101,7.1,Stéphane Brizé,French
+A Few Hours of Spring,Drama,2012,85,7.3,Stéphane Brizé,French
+At War,Drama,2018,114,7.1,Stéphane Brizé,French
+Another World,Drama,2021,117,6.9,Stéphane Brizé,French
+Polisse,Drama,2011,127,7.2,Maïwenn,French
+Mon Roi,Drama,2015,128,6.8,Maïwenn,French
+DNA,Drama,2020,90,6.2,Maïwenn,French
+La Vie en Rose,Music,2007,140,7.6,Olivier Dahan,French
+Grace of Monaco,Drama,2014,103,5.8,Olivier Dahan,French
+The Translators,Thriller,2019,105,6.8,Régis Roinsard,French
+The Connection,Crime,2014,135,7.1,Cédric Jimenez,French
+The Man with the Iron Heart,War,2017,120,6.4,Cédric Jimenez,French
+BAC Nord,Crime,2021,105,6.7,Cédric Jimenez,French
+November,Thriller,2022,100,6.5,Cédric Jimenez,French
+Caché,Thriller,2005,117,7.3,Michael Haneke,French
+The Piano Teacher,Drama,2001,131,7.5,Michael Haneke,French
+Code Unknown,Drama,2000,118,7.2,Michael Haneke,French
+Time of the Wolf,Drama,2003,114,6.9,Michael Haneke,French
+Happy End,Drama,2017,107,6.7,Michael Haneke,French
+Delicatessen,Comedy,1991,99,7.6,Jean-Pierre Jeunet,French
+The City of Lost Children,Fantasy,1995,112,7.6,Jean-Pierre Jeunet,French
+A Very Long Engagement,War,2004,133,7.6,Jean-Pierre Jeunet,French
+Micmacs,Comedy,2009,104,6.9,Jean-Pierre Jeunet,French
+Raw,Horror,2016,99,7.0,Julia Ducournau,French
+Titane,Science Fiction,2021,108,6.5,Julia Ducournau,French
+Martyrs,Horror,2008,99,7.1,Pascal Laugier,French
+Inside,Horror,2007,82,6.7,Julien Maury,French
+High Tension,Horror,2003,91,6.8,Alexandre Aja,French
+Frontier(s),Horror,2007,108,6.6,Xavier Gens,French
+Them,Horror,2006,77,6.4,David Moreau,French
+Irreversible,Thriller,2002,97,7.4,Gaspar Noé,French
+Enter the Void,Drama,2009,161,7.2,Gaspar Noé,French
+Love,Drama,2015,135,6.0,Gaspar Noé,French
+Climax,Drama,2018,97,7.0,Gaspar Noé,French
+Vortex,Drama,2021,142,7.2,Gaspar Noé,French
+Holy Motors,Fantasy,2012,115,7.1,Leos Carax,French
+The Lovers on the Bridge,Drama,1991,125,7.6,Leos Carax,French
+Bad Blood,Science Fiction,1986,116,7.2,Leos Carax,French
+Annette,Musical,2021,141,6.3,Leos Carax,French
+Three Colors: Blue,Drama,1993,98,7.9,Krzysztof Kieślowski,French
+Three Colors: White,Comedy,1994,91,7.7,Krzysztof Kieślowski,French
+Three Colors: Red,Drama,1994,99,8.1,Krzysztof Kieślowski,French
+The Double Life of Véronique,Drama,1991,98,7.7,Krzysztof Kieślowski,French
+Couscous,Drama,2007,151,7.3,Abdellatif Kechiche,French
+Black Venus,Drama,2010,159,6.5,Abdellatif Kechiche,French
+The Spanish Apartment,Comedy,2002,122,7.2,Cédric Klapisch,French
+Russian Dolls,Comedy,2005,125,6.7,Cédric Klapisch,French
+Chinese Puzzle,Comedy,2013,117,6.5,Cédric Klapisch,French
+Back to Burgundy,Drama,2017,97,6.8,Cédric Klapisch,French
+Someone, Somewhere,Drama,2019,108,6.9,Cédric Klapisch,French
+The Taste of Others,Comedy,2000,112,7.2,Agnès Jaoui,French
+Look at Me,Comedy,2004,110,7.0,Agnès Jaoui,French
+Let It Rain,Comedy,2008,104,6.2,Agnès Jaoui,French
+Au Revoir Les Enfants,War,1987,104,8.0,Louis Malle,French
+Lacombe, Lucien,Drama,1974,137,7.7,Louis Malle,French
+Murmur of the Heart,Drama,1971,118,7.7,Louis Malle,French
+Elevator to the Gallows,Thriller,1958,92,7.9,Louis Malle,French
+The Fire Within,Drama,1963,108,7.8,Louis Malle,French
+Zazie dans le Métro,Comedy,1960,89,7.1,Louis Malle,French
+Atlantic City,Drama,1980,104,7.6,Louis Malle,French
+My Night at Maud's,Drama,1969,110,7.9,Éric Rohmer,French
+Claire's Knee,Drama,1970,105,7.6,Éric Rohmer,French
+Chloe in the Afternoon,Drama,1972,97,7.5,Éric Rohmer,French
+The Green Ray,Drama,1986,98,7.7,Éric Rohmer,French
+Pauline at the Beach,Comedy,1983,94,7.4,Éric Rohmer,French
+Full Moon in Paris,Drama,1984,102,7.2,Éric Rohmer,French
+Boyfriends and Girlfriends,Drama,1987,103,7.3,Éric Rohmer,French
+A Tale of Springtime,Drama,1990,112,7.3,Éric Rohmer,French
+A Tale of Winter,Drama,1992,114,7.5,Éric Rohmer,French
+Rendezvous in Paris,Drama,1995,100,7.4,Éric Rohmer,French
+The Lady and the Duke,Drama,2001,129,6.8,Éric Rohmer,French
+Triple Agent,Thriller,2004,115,6.7,Éric Rohmer,French
+The Romance of Astrea and Celadon,Drama,2007,109,6.5,Éric Rohmer,French
+The Last Mistress,Drama,2007,114,6.3,Catherine Breillat,French
+Fat Girl,Drama,2001,86,6.7,Catherine Breillat,French
+Anatomy of Hell,Drama,2004,77,5.0,Catherine Breillat,French
+Bluebeard,Drama,2009,80,6.2,Catherine Breillat,French
+The Beautiful Person,Drama,2008,100,6.5,Christophe Honoré,French
+Love Songs,Musical,2007,100,6.8,Christophe Honoré,French
+Sorry Angel,Drama,2018,132,7.0,Christophe Honoré,French
+On a Magical Night,Comedy,2019,100,6.4,Christophe Honoré,French
+Guermantes,Drama,2021,105,6.2,Christophe Honoré,French
+The Dreamlife of Angels,Drama,1998,113,7.6,Erick Zonca,French
+Little Joe,Drama,2022,98,6.8,Stéphane Demoustier,French
+The Stronghold,Crime,2021,115,6.9,Cédric Jimenez,French
+Lost Illusions,Drama,2021,149,7.0,Xavier Giannoli,French
+The Accusation,Drama,2021,122,7.1,Yvan Attal,French
+The Origin of Evil,Thriller,2022,120,6.8,Sébastien Marnier,French
+Final Cut,Comedy,2022,110,6.5,Michel Hazanavicius,French
+November,Thriller,2022,100,6.5,Cédric Jimenez,French
+The Night of the 12th,Thriller,2022,115,7.3,Dominik Moll,French
+The Innocent,Comedy,2022,99,7.2,Louis Garrel,French
+Don Juan,Musical,2022,102,6.1,Serge Bozon,French
+Pacifiction,Thriller,2022,165,6.7,Albert Serra,French
+One Fine Morning,Drama,2022,112,7.1,Mia Hansen-Løve,French
+Return to Seoul,Drama,2022,119,7.1,Davy Chou,French
+The Beasts,Thriller,2022,137,7.6,Rodrigo Sorogoyen,French
+Saint Omer,Drama,2022,122,7.3,Alice Diop,French
+Other People's Children,Drama,2022,104,7.2,Rebecca Zlotowski,French
+Full Time,Drama,2021,88,7.4,Éric Gravel,French
+The Gravity,Drama,2021,90,6.9,Maxime Giroux,French
+Between Two Worlds,Drama,2021,106,7.0,Emmanuel Carrère,French
+The Passengers of the Night,Drama,2022,111,6.9,Mikhaël Hers,French
+The Sixth Child,Drama,2022,95,6.8,Léopold Legrand,French
+The Worst Ones,Drama,2022,99,6.9,Lise Akoka,French
+The Sitting Duck,Drama,2022,119,6.7,Jean-Paul Salomé,French
+Rise,Drama,2022,119,6.8,Cédric Klapisch,French
+Mrs. Harris Goes to Paris,Comedy,2022,115,7.1,Anthony Fabian,French
+Corsage,Drama,2022,113,6.8,Marie Kreutzer,French
+The Eight Mountains,Drama,2022,147,7.7,Felix van Groeningen,French
+Close,Drama,2022,105,7.8,Lukas Dhont,French
+Anatomy of a Fall,Drama,2023,152,7.9,Justine Triet,French
+The Pot-au-Feu,Drama,2023,134,7.6,Trần Anh Hùng,French
+The Book of Solutions,Comedy,2023,102,6.4,Michel Gondry,French
+The Goldman Case,Crime,2023,115,7.3,Cédric Kahn,French
+City of God,Crime,2002,130,8.6,Fernando Meirelles,Portuguese
+Central Station,Drama,1998,110,8.0,Walter Salles,Portuguese
+Elite Squad,Action,2007,115,8.0,José Padilha,Portuguese
+Elite Squad 2,Action,2010,115,8.1,José Padilha,Portuguese
+The Second Mother,Comedy,2015,112,7.7,Anna Muylaert,Portuguese
+Neighboring Sounds,Thriller,2012,131,7.3,Kleber Mendonça Filho,Portuguese
+Aquarius,Drama,2016,142,7.4,Kleber Mendonça Filho,Portuguese
+Bacurau,Thriller,2019,131,7.4,Kleber Mendonça Filho,Portuguese
+The Man Who Copied,Comedy,2003,124,7.7,Jorge Furtado,Portuguese
+The Year My Parents Went on Vacation,Drama,2006,104,7.5,Cao Hamburger,Portuguese
+Behind the Sun,Drama,2001,105,7.6,Walter Salles,Portuguese
+Foreign Land,Drama,1995,100,7.6,Walter Salles,Portuguese
+Linha de Passe,Drama,2008,113,7.2,Walter Salles,Portuguese
+The Motorcycle Diaries,Drama,2004,126,7.7,Walter Salles,Portuguese
+Dark River,Drama,2011,105,7.0,Cao Hamburger,Portuguese
+The Trespasser,Drama,2002,95,7.1,Beto Brant,Portuguese
+I Travel Because I Have to, I Come Back Because I Love You,Drama,2009,75,7.2,Karim Aïnouz,Portuguese
+Madame Satã,Drama,2002,95,7.3,Karim Aïnouz,Portuguese
+The Invisible Life,Drama,2019,139,8.1,Karim Aïnouz,Portuguese
+Futuro Beach,Drama,2014,106,6.7,Karim Aïnouz,Portuguese
+The Silver Cliff,Drama,2023,125,7.0,Karim Aïnouz,Portuguese
+Brainstorm,Thriller,2001,95,7.1,Laís Bodanzky,Portuguese
+The Best Things in the World,Drama,2010,105,7.3,Laís Bodanzky,Portuguese
+Just Like Our Parents,Drama,2017,102,7.1,Laís Bodanzky,Portuguese
+The Police Officer's Wife,Drama,2022,115,6.9,Laís Bodanzky,Portuguese
+House of Sand,Drama,2005,115,7.2,Andrucha Waddington,Portuguese
+Me You Them,Comedy,2000,95,7.4,Andrucha Waddington,Portuguese
+The Man of the Year,Comedy,2003,105,6.9,José Henrique Fonseca,Portuguese
+The Dognapper,Comedy,2023,110,6.8,José Henrique Fonseca,Portuguese
+Castelo & Rá-Tim-Bum,Family,2023,105,7.1,Cao Hamburger,Portuguese
+The Last Station,Drama,2016,95,7.0,Diego Freitas,Portuguese
+Good Manners,Horror,2017,135,7.1,Juliana Rojas,Portuguese
+Hard Labor,Drama,2011,102,7.0,Juliana Rojas,Portuguese
+The Fever,Drama,2019,98,6.9,Maya Da-Rin,Portuguese
+A Wolf at the Door,Thriller,2013,100,7.4,Fernando Coimbra,Portuguese
+The Dead and the Others,Drama,2018,118,7.1,João Salaviza,Portuguese
+Rafa,Drama,2012,95,7.0,João Salaviza,Portuguese
+Montanha,Drama,2015,95,6.9,João Salaviza,Portuguese
+The Nothing Factory,Drama,2017,177,7.2,Pedro Pinho,Portuguese
+The Portuguese Woman,Drama,2018,115,6.8,Rita Azevedo Gomes,Portuguese
+A Woman's Revenge,Drama,2012,135,7.0,Rita Azevedo Gomes,Portuguese
+The Forest of the Lost,Drama,2021,105,6.7,Rodrigo Areias,Portuguese
+The Domain,Drama,2019,175,7.3,Tiago Guedes,Portuguese
+Sangue do Meu Sangue,Drama,2011,115,7.1,João Canijo,Portuguese
+Fantasia Lusitana,Drama,2010,105,6.9,João Canijo,Portuguese
+The Invisible Collection,Drama,2012,95,7.0,Bernardo Pinheiro,Portuguese
+The Sound of the Sea,Drama,2022,110,7.1,Leonel Vieira,Portuguese
+Amor Impossível,Drama,2015,105,6.8,António Ferreira,Portuguese
+The Consul of Bordeaux,Drama,2011,90,7.2,Francisco Manso,Portuguese
+The Last Time I Saw Macau,Documentary,2012,85,6.9,João Pedro Rodrigues,Portuguese
+To Die Like a Man,Drama,2009,122,6.8,João Pedro Rodrigues,Portuguese
+The Ornithologist,Drama,2016,118,6.7,João Pedro Rodrigues,Portuguese
+Will-o'-the-Wisp,Fantasy,2022,67,6.9,João Pedro Rodrigues,Portuguese
+Colo,Drama,2017,96,6.8,Teresa Villaverde,Portuguese
+The Mutants,Drama,1998,115,7.0,Teresa Villaverde,Portuguese
+Transe,Drama,2006,115,6.7,Teresa Villaverde,Portuguese
+Swirl,Drama,2022,105,6.9,João Maia,Portuguese
+Bad Investigate,Comedy,2022,95,6.5,Carolina Neves,Portuguese
+Variações,Drama,2019,122,7.1,João Maia,Portuguese
+The Eternal Night,Drama,2021,115,6.8,Marco Martins,Portuguese
+Saint George,Drama,2016,109,7.0,Marco Martins,Portuguese
+How to Draw a Perfect Circle,Drama,2009,95,6.9,Marco Martins,Portuguese
+The Nothing Factory,Drama,2017,177,7.2,Pedro Pinho,Portuguese
+The Portuguese Woman,Drama,2018,115,6.8,Rita Azevedo Gomes,Portuguese
+A Woman's Revenge,Drama,2012,135,7.0,Rita Azevedo Gomes,Portuguese
+The Forest of the Lost,Drama,2021,105,6.7,Rodrigo Areias,Portuguese
+The Domain,Drama,2019,175,7.3,Tiago Guedes,Portuguese
+Sangue do Meu Sangue,Drama,2011,115,7.1,João Canijo,Portuguese
+Fantasia Lusitana,Drama,2010,105,6.9,João Canijo,Portuguese
+The Invisible Collection,Drama,2012,95,7.0,Bernardo Pinheiro,Portuguese
+The Sound of the Sea,Drama,2022,110,7.1,Leonel Vieira,Portuguese
+Amor Impossível,Drama,2015,105,6.8,António Ferreira,Portuguese
+The Consul of Bordeaux,Drama,2011,90,7.2,Francisco Manso,Portuguese
+The Last Time I Saw Macau,Documentary,2012,85,6.9,João Pedro Rodrigues,Portuguese
+To Die Like a Man,Drama,2009,122,6.8,João Pedro Rodrigues,Portuguese
+The Ornithologist,Drama,2016,118,6.7,João Pedro Rodrigues,Portuguese
+Will-o'-the-Wisp,Fantasy,2022,67,6.9,João Pedro Rodrigues,Portuguese
+Colo,Drama,2017,96,6.8,Teresa Villaverde,Portuguese
+The Mutants,Drama,1998,115,7.0,Teresa Villaverde,Portuguese
+Transe,Drama,2006,115,6.7,Teresa Villaverde,Portuguese
+Swirl,Drama,2022,105,6.9,João Maia,Portuguese
+Bad Investigate,Comedy,2022,95,6.5,Carolina Neves,Portuguese
+Variações,Drama,2019,122,7.1,João Maia,Portuguese
+The Eternal Night,Drama,2021,115,6.8,Marco Martins,Portuguese
+Saint George,Drama,2016,109,7.0,Marco Martins,Portuguese
+How to Draw a Perfect Circle,Drama,2009,95,6.9,Marco Martins,Portuguese
+The Nothing Factory,Drama,2017,177,7.2,Pedro Pinho,Portuguese
+The Portuguese Woman,Drama,2018,115,6.8,Rita Azevedo Gomes,Portuguese
+A Woman's Revenge,Drama,2012,135,7.0,Rita Azevedo Gomes,Portuguese
+The Forest of the Lost,Drama,2021,105,6.7,Rodrigo Areias,Portuguese
+The Domain,Drama,2019,175,7.3,Tiago Guedes,Portuguese
+Sangue do Meu Sangue,Drama,2011,115,7.1,João Canijo,Portuguese
+Fantasia Lusitana,Drama,2010,105,6.9,João Canijo,Portuguese
+The Invisible Collection,Drama,2012,95,7.0,Bernardo Pinheiro,Portuguese
+The Sound of the Sea,Drama,2022,110,7.1,Leonel Vieira,Portuguese
+Amor Impossível,Drama,2015,105,6.8,António Ferreira,Portuguese
+The Consul of Bordeaux,Drama,2011,90,7.2,Francisco Manso,Portuguese
+The Last Time I Saw Macau,Documentary,2012,85,6.9,João Pedro Rodrigues,Portuguese
+To Die Like a Man,Drama,2009,122,6.8,João Pedro Rodrigues,Portuguese
+The Ornithologist,Drama,2016,118,6.7,João Pedro Rodrigues,Portuguese
+Will-o'-the-Wisp,Fantasy,2022,67,6.9,João Pedro Rodrigues,Portuguese
+Colo,Drama,2017,96,6.8,Teresa Villaverde,Portuguese
+The Mutants,Drama,1998,115,7.0,Teresa Villaverde,Portuguese
+Transe,Drama,2006,115,6.7,Teresa Villaverde,Portuguese
+Swirl,Drama,2022,105,6.9,João Maia,Portuguese
+Bad Investigate,Comedy,2022,95,6.5,Carolina Neves,Portuguese
+Variações,Drama,2019,122,7.1,João Maia,Portuguese
+The Eternal Night,Drama,2021,115,6.8,Marco Martins,Portuguese
+Saint George,Drama,2016,109,7.0,Marco Martins,Portuguese
+How to Draw a Perfect Circle,Drama,2009,95,6.9,Marco Martins,Portuguese
+Leviathan,Drama,2014,141,7.6,Andrey Zvyagintsev,Russian
+Loveless,Drama,2017,127,7.7,Andrey Zvyagintsev,Russian
+The Return,Drama,2003,106,7.9,Andrey Zvyagintsev,Russian
+Elena,Drama,2011,109,7.3,Andrey Zvyagintsev,Russian
+Solaris,Science Fiction,1972,167,8.1,Andrei Tarkovsky,Russian
+Stalker,Science Fiction,1979,162,8.1,Andrei Tarkovsky,Russian
+Andrei Rublev,History,1966,205,8.1,Andrei Tarkovsky,Russian
+The Mirror,Drama,1975,107,8.1,Andrei Tarkovsky,Russian
+Nostalghia,Drama,1983,125,8.0,Andrei Tarkovsky,Russian
+The Sacrifice,Drama,1986,149,8.0,Andrei Tarkovsky,Russian
+Moscow Does Not Believe in Tears,Drama,1980,148,8.1,Vladimir Menshov,Russian
+The Irony of Fate,Comedy,1975,184,8.2,Eldar Ryazanov,Russian
+Office Romance,Comedy,1977,159,8.1,Eldar Ryazanov,Russian
+The Diamond Arm,Comedy,1969,94,8.2,Leonid Gaidai,Russian
+Ivan Vasilievich: Back to the Future,Comedy,1973,88,8.1,Leonid Gaidai,Russian
+Kidnapping, Caucasian Style,Comedy,1967,82,8.1,Leonid Gaidai,Russian
+Operation Y and Shurik's Other Adventures,Comedy,1965,90,8.3,Leonid Gaidai,Russian
+Battleship Potemkin,History,1925,75,7.9,Sergei Eisenstein,Russian
+Alexander Nevsky,History,1938,112,7.6,Sergei Eisenstein,Russian
+Ivan the Terrible,History,1944,187,7.7,Sergei Eisenstein,Russian
+War and Peace,War,1966,422,8.2,Sergei Bondarchuk,Russian
+Waterloo,History,1970,134,7.3,Sergei Bondarchuk,Russian
+They Fought for Their Motherland,War,1975,137,8.0,Sergei Bondarchuk,Russian
+The Cranes Are Flying,War,1957,97,8.2,Mikhail Kalatozov,Russian
+I Am Cuba,Drama,1964,141,7.9,Mikhail Kalatozov,Russian
+The Letter That Was Never Sent,Drama,1960,97,7.7,Mikhail Kalatozov,Russian
+Ballad of a Soldier,War,1959,88,8.1,Grigory Chukhray,Russian
+Clear Skies,Drama,1961,109,7.8,Grigory Chukhray,Russian
+The Forty-First,Drama,1956,88,7.6,Grigory Chukhray,Russian
+Come and See,War,1985,142,8.4,Elem Klimov,Russian
+Rasputin,Drama,2011,113,6.5,José Luis Moreno,Russian
+The Barber of Siberia,Comedy,1998,180,7.6,Nikita Mikhalkov,Russian
+Burnt by the Sun,Drama,1994,135,7.8,Nikita Mikhalkov,Russian
+12,Crime,2007,159,7.7,Nikita Mikhalkov,Russian
+Close to Eden,Drama,1991,106,7.4,Nikita Mikhalkov,Russian
+An Unfinished Piece for Mechanical Piano,Drama,1977,103,8.2,Nikita Mikhalkov,Russian
+Five Evenings,Drama,1978,101,8.0,Nikita Mikhalkov,Russian
+Oblivion,Drama,2015,120,6.8,Andrey Proshkin,Russian
+The Geographer Drank His Globe Away,Drama,2013,123,7.6,Aleksandr Veledinskiy,Russian
+The Student,Drama,2016,118,7.2,Kirill Serebrennikov,Russian
+Leto,Music,2018,126,7.1,Kirill Serebrennikov,Russian
+Petrov's Flu,Drama,2021,145,7.0,Kirill Serebrennikov,Russian
+The Duelist,Action,2016,110,6.7,Aleksey Mizgirev,Russian
+About Love,Drama,2017,105,6.5,Anna Melikyan,Russian
+The Edge,Drama,2010,124,7.5,Aleksey Uchitel,Russian
+The Captive,Drama,2008,90,6.8,Aleksey Uchitel,Russian
+Spacewalk,History,2017,140,6.6,Dmitriy Kiselev,Russian
+Attraction,Science Fiction,2017,132,5.7,Fyodor Bondarchuk,Russian
+Invasion,Science Fiction,2020,133,5.8,Fyodor Bondarchuk,Russian
+The Blackout,Science Fiction,2019,135,5.9,Egor Baranov,Russian
+Gogol. The Beginning,Thriller,2017,103,5.8,Egor Baranov,Russian
+Gogol. Viy,Thriller,2018,99,5.9,Egor Baranov,Russian
+Gogol. Terrible Revenge,Thriller,2018,90,5.7,Egor Baranov,Russian
+The Last Warrior,Fantasy,2017,114,6.1,Dmitriy Dyachenko,Russian
+The Last Warrior: Root of Evil,Fantasy,2021,121,6.2,Dmitriy Dyachenko,Russian
+The Last Warrior: A Messenger of Darkness,Fantasy,2021,108,6.0,Dmitriy Dyachenko,Russian
+Salyut-7,History,2017,130,7.1,Klim Shipenko,Russian
+Serf,Comedy,2019,116,6.3,Klim Shipenko,Russian
+Text,Drama,2019,132,6.8,Klim Shipenko,Russian
+The Challenge,Science Fiction,2023,165,6.5,Klim Shipenko,Russian
+Ice,Sports,2018,113,6.5,Oleg Trofim,Russian
+Ice 2,Sports,2020,132,6.2,Zhorik Kryzhovnikov,Russian
+Fire,Action,2020,136,6.0,Aleksey Nuzhnyy,Russian
+Silver Skates,Romance,2020,136,6.7,Mikhail Lokshin,Russian
+The Age of Pioneers,History,2017,140,6.9,Dmitriy Kiselev,Russian
+T-34,War,2018,139,6.5,Aleksey Sidorov,Russian
+The Balkan Line,War,2019,151,6.4,Andrey Volgin,Russian
+Stalingrad,War,2013,135,6.1,Fyodor Bondarchuk,Russian
+The Dawns Here Are Quiet,War,2015,120,6.8,Renat Davletyarov,Russian
+The Last Frontier,War,2020,122,6.3,Vadim Shmelev,Russian
+Panfilov's 28 Men,War,2016,120,6.4,Kim Druzhinin,Russian
+Sputnik,Science Fiction,2020,113,6.4,Egor Abramenko,Russian
+Coma,Science Fiction,2020,111,6.1,Nikita Argunov,Russian
+Major Grom: Plague Doctor,Action,2021,137,6.7,Oleg Trofim,Russian
+The Black Monk,Thriller,2022,105,6.2,Ivan Tverdovskiy,Russian
+Captain Volkonogov Escaped,Thriller,2021,126,6.9,Aleksey Chupov,Russian
+The Superdeep,Horror,2020,113,5.6,Arseny Syuhin,Russian
+The Bride,Horror,2017,89,5.8,Svyatoslav Podgaevskiy,Russian
+The Queen of Spades,Horror,2016,95,5.9,Pavel Lungin,Russian
+The Darkest Hour,Horror,2021,105,5.7,Nikolay Khomeriki,Russian
+The Execution,Thriller,2021,108,6.3,Lado Kvataniya,Russian
+Nuremberg,History,2023,119,6.8,Nikolay Lebedev,Russian
+The One,Action,2022,105,6.0,Dmitriy Suvorov,Russian
+The Pilot. A Battle for Survival,War,2021,105,6.4,Renat Davletyarov,Russian
+A Rough Draft,Science Fiction,2018,112,5.9,Sergey Mokritskiy,Russian
+The Last Minister,Thriller,2022,115,6.2,Klim Shipenko,Russian
+The World Champion,Drama,2021,134,6.7,Aleksey Sidorov,Russian
+The Irony of Fate 2,Comedy,2007,116,5.8,Timur Bekmambetov,Russian
+What Men Talk About,Comedy,2010,93,7.1,Dzhanik Fayziev,Russian
+What Men Still Talk About,Comedy,2011,85,6.8,Dzhanik Fayziev,Russian
+Yolki,Comedy,2010,90,6.2,Tимур Бекмамбетов,Russian
+Yolki 2,Comedy,2011,106,5.9,Aleksandr Kott,Russian
+Yolki 3,Comedy,2013,108,5.7,Aleksandr Kott,Russian
+Yolki 1914,Comedy,2014,95,5.5,Dmitriy Kiselev,Russian
+Yolki 5,Comedy,2016,89,5.3,Egor Baranov,Russian
+The Best Day,Comedy,2019,90,6.0,Zhorik Kryzhovnikov,Russian
+Gorko!,Comedy,2013,95,6.7,Zhorik Kryzhovnikov,Russian
+Gorko! 2,Comedy,2015,90,6.3,Zhorik Kryzhovnikov,Russian
+Gorko! 3,Comedy,2017,85,5.9,Zhorik Kryzhovnikov,Russian
+The Kitchen,Comedy,2014,100,6.5,Dmitriy Dyachenko,Russian
+The Kitchen in Paris,Comedy,2023,110,6.2,Dmitriy Dyachenko,Russian
+Hotel Belgrade,Comedy,2020,95,5.8,Konstantin Statskiy,Russian
+The Last Bogatyr,Fantasy,2017,114,6.1,Dmitriy Dyachenko,Russian
+The Last Bogatyr: The Root of Evil,Fantasy,2021,121,6.2,Dmitriy Dyachenko,Russian
+The Last Bogatyr: The Messenger of Darkness,Fantasy,2021,108,6.0,Dmitriy Dyachenko,Russian
+Furious,Action,2017,118,5.9,Ivan Shurkhovetskiy,Russian
+Furious 2,Action,2020,125,5.7,Ivan Shurkhovetskiy,Russian
+Beyond the Edge,Thriller,2018,105,5.8,Aleksandr Boguslavskiy,Russian
+The Ghost,Thriller,2015,95,5.6,Aleksandr Voytinskiy,Russian
+Mafia: The Game of Survival,Action,2016,110,5.9,Sarik Andreasyan,Russian
+Guardians,Action,2017,89,5.3,Sarik Andreasyan,Russian
+The Blackout,Science Fiction,2019,135,5.9,Egor Baranov,Russian
+Coma,Science Fiction,2020,111,6.1,Nikita Argunov,Russian
+The Text,Drama,2019,132,6.8,Klim Shipenko,Russian
+Captain Volkonogov Escaped,Thriller,2021,126,6.9,Aleksey Chupov,Russian
+The Execution,Thriller,2021,108,6.3,Lado Kvataniya,Russian
+Nuremberg,History,2023,119,6.8,Nikolay Lebedev,Russian
+The One,Action,2022,105,6.0,Dmitriy Suvorov,Russian
+The Pilot. A Battle for Survival,War,2021,105,6.4,Renat Davletyarov,Russian
+A Rough Draft,Science Fiction,2018,112,5.9,Sergey Mokritskiy,Russian
+The Last Minister,Thriller,2022,115,6.2,Klim Shipenko,Russian
+The World Champion,Drama,2021,134,6.7,Aleksey Sidorov,Russian
+Parasite,Thriller,2019,132,8.6,Bong Joon-ho,Korean
+Oldboy,Thriller,2003,120,8.4,Park Chan-wook,Korean
+Memories of Murder,Crime,2003,132,8.1,Bong Joon-ho,Korean
+The Handmaiden,Thriller,2016,145,8.1,Park Chan-wook,Korean
+Train to Busan,Horror,2016,118,7.6,Yeong Sang-ho,Korean
+The Wailing,Horror,2016,156,7.4,Na Hong-jin,Korean
+A Taxi Driver,History,2017,137,7.9,Jang Hoon,Korean
+The Host,Horror,2006,120,7.1,Bong Joon-ho,Korean
+Burning,Thriller,2018,148,7.5,Lee Chang-dong,Korean
+Mother,Thriller,2009,128,7.8,Bong Joon-ho,Korean
+Sympathy for Mr. Vengeance,Crime,2002,129,7.6,Park Chan-wook,Korean
+Lady Vengeance,Thriller,2005,112,7.6,Park Chan-wook,Korean
+I Saw the Devil,Thriller,2010,144,7.8,Kim Jee-woon,Korean
+The Man from Nowhere,Action,2010,119,7.8,Lee Jeong-beom,Korean
+A Bittersweet Life,Crime,2005,120,7.6,Kim Jee-woon,Korean
+The Chaser,Thriller,2008,125,7.8,Na Hong-jin,Korean
+The Yellow Sea,Crime,2010,157,7.7,Na Hong-jin,Korean
+Silenced,Drama,2011,125,7.9,Hwang Dong-hyuk,Korean
+Miss Granny,Comedy,2014,124,7.3,Hwang Dong-hyuk,Korean
+The Attorney,Drama,2013,127,7.7,Yang Woo-suk,Korean
+Ode to My Father,Drama,2014,126,7.9,Yoon Je-kyoon,Korean
+Assassination,Action,2015,140,7.6,Choi Dong-hoon,Korean
+The Thieves,Action,2012,135,7.2,Choi Dong-hoon,Korean
+The Admiral: Roaring Currents,History,2014,128,7.1,Kim Han-min,Korean
+Masquerade,History,2012,131,7.6,Choo Chang-min,Korean
+The King and the Clown,Drama,2005,119,7.6,Lee Joon-ik,Korean
+Taegukgi,War,2004,140,8.1,Kang Je-gyu,Korean
+Joint Security Area,Thriller,2000,110,7.8,Park Chan-wook,Korean
+My Sassy Girl,Comedy,2001,137,7.8,Kwak Jae-yong,Korean
+My Wife is a Gangster,Comedy,2001,108,6.6,Jo Jin-gyu,Korean
+Welcome to Dongmakgol,Comedy,2005,133,7.8,Park Kwang-hyun,Korean
+The Good, the Bad, the Weird,Action,2008,139,7.2,Kim Jee-woon,Korean
+The Host,Horror,2006,120,7.1,Bong Joon-ho,Korean
+The Age of Shadows,Thriller,2016,140,7.1,Kim Jee-woon,Korean
+A Tale of Two Sisters,Horror,2003,115,7.2,Kim Jee-woon,Korean
+The Divine Fury,Horror,2019,129,6.2,Kim Joo-hwan,Korean
+The Priests,Horror,2015,108,6.5,Jang Jae-hyun,Korean
+The Mimic,Horror,2017,100,5.8,Huh Jung,Korean
+Gonjiam: Haunted Asylum,Horror,2018,95,6.2,Jung Bum-shik,Korean
+The Wailing,Horror,2016,156,7.4,Na Hong-jin,Korean
+Train to Busan,Horror,2016,118,7.6,Yeong Sang-ho,Korean
+Peninsula,Action,2020,116,5.5,Yeong Sang-ho,Korean
+Psychokinesis,Comedy,2018,101,6.1,Yeong Sang-ho,Korean
+Seoul Station,Animation,2016,92,6.3,Yeong Sang-ho,Korean
+The Witch: Part 1. The Subversion,Action,2018,125,7.1,Park Hoon-jung,Korean
+The Witch: Part 2. The Other One,Action,2022,137,6.8,Park Hoon-jung,Korean
+New World,Crime,2013,134,7.6,Park Hoon-jung,Korean
+Veteran,Action,2015,123,7.1,Ryoo Seung-wan,Korean
+The Berlin File,Action,2013,120,6.9,Ryoo Seung-wan,Korean
+The Battleship Island,War,2017,132,6.8,Ryoo Seung-wan,Korean
+Escape from Mogadishu,Action,2021,121,7.3,Ryoo Seung-wan,Korean
+The Outlaws,Action,2017,121,7.2,Kang Yoon-sung,Korean
+The Roundup,Action,2022,106,7.0,Lee Sang-yong,Korean
+The Gangster, The Cop, The Devil,Action,2019,109,7.0,Lee Won-tae,Korean
+Deliver Us from Evil,Action,2020,108,6.9,Hong Won-chan,Korean
+The Swordsman,Action,2020,101,6.5,Choi Jae-hoon,Korean
+Space Sweepers,Science Fiction,2021,136,6.6,Jo Sung-hee,Korean
+Illang: The Wolf Brigade,Science Fiction,2018,140,6.1,Kim Jee-woon,Korean
+Snowpiercer,Science Fiction,2013,126,7.1,Bong Joon-ho,Korean
+Okja,Science Fiction,2017,120,7.3,Bong Joon-ho,Korean
+The Flu,Thriller,2013,122,6.9,Kim Sung-su,Korean
+Pandora,Thriller,2016,136,6.5,Park Jung-woo,Korean
+Ashfall,Action,2019,128,6.4,Lee Hae-jun,Korean
+Exit,Comedy,2019,103,6.9,Lee Sang-geun,Korean
+Extreme Job,Comedy,2019,111,7.2,Lee Byeong-heon,Korean
+Midnight Runners,Comedy,2017,109,7.2,Kim Joo-hwan,Korean
+Twenty,Comedy,2015,115,6.9,Lee Byeong-heon,Korean
+Secret Zoo,Comedy,2020,118,6.7,Son Jae-gon,Korean
+Samjin Company English Class,Comedy,2020,110,6.8,Lee Jong-pil,Korean
+Okay! Madam,Comedy,2020,100,6.3,Lee Cheol-ha,Korean
+Hitman: Agent Jun,Comedy,2020,110,6.4,Choi Won-sub,Korean
+Pawn,Comedy,2020,112,6.2,Kang Dae-gyu,Korean
+The Bros,Comedy,2017,102,6.5,Jang Yoo-jeong,Korean
+Sunny,Comedy,2011,124,7.8,Kang Hyeong-cheol,Korean
+Scandal Makers,Comedy,2008,132,7.5,Kang Hyeong-cheol,Korean
+Miracle in Cell No. 7,Drama,2013,127,8.2,Lee Hwan-kyung,Korean
+Hope,Drama,2013,122,7.7,Lee Joon-ik,Korean
+A Werewolf Boy,Romance,2012,124,7.3,Jo Sung-hee,Korean
+Always,Romance,2011,105,7.4,Song Il-gon,Korean
+A Moment to Remember,Romance,2004,144,8.2,Lee Jae-han,Korean
+The Classic,Romance,2003,127,7.8,Gwak Jae-yong,Korean
+My Little Bride,Comedy,2004,115,6.9,Kim Ho-jun,Korean
+200 Pounds Beauty,Comedy,2006,120,6.9,Kim Yong-hwa,Korean
+The Beauty Inside,Romance,2015,127,7.2,Baik,Korean
+Architecture 101,Romance,2012,116,7.3,Lee Yong-ju,Korean
+On Your Wedding Day,Romance,2018,110,7.0,Lee Seok-geun,Korean
+Tune in for Love,Romance,2019,122,6.9,Jung Ji-woo,Korean
+More Than Blue,Romance,2009,105,7.5,Won Tae-yeon,Korean
+A Love Story,Romance,2006,121,7.1,Won Tae-yeon,Korean
+The Last Princess,History,2016,127,7.1,Hur Jin-ho,Korean
+Forbidden Dream,History,2019,110,6.8,Hur Jin-ho,Korean
+The Face Reader,History,2013,139,7.1,Han Jae-rim,Korean
+The Throne,History,2015,125,7.1,Lee Joon-ik,Korean
+The Fortress,History,2017,139,7.0,Hwang Dong-hyuk,Korean
+The Pirates,Adventure,2014,130,6.7,Lee Seok-hoon,Korean
+The Himalayas,Adventure,2015,124,7.0,Lee Seok-hoon,Korean
+Along with the Gods: The Two Worlds,Fantasy,2017,139,7.3,Kim Yong-hwa,Korean
+Along with the Gods: The Last 49 Days,Fantasy,2018,142,7.0,Kim Yong-hwa,Korean
+The Divine Move,Action,2014,118,6.7,Jo Beom-goo,Korean
+The Fatal Encounter,History,2014,135,6.7,Lee Jae-kyoo,Korean
+The King's Case Note,History,2017,114,6.5,Moon Hyun-sung,Korean
+The Princess and the Matchmaker,Comedy,2018,110,6.2,Hong Chang-pyo,Korean
+The Dude in Me,Comedy,2019,122,6.7,Kang Hyo-jin,Korean
+The Bad Guys: Reign of Chaos,Action,2019,114,5.9,Son Yong-ho,Korean
+The Closet,Horror,2020,97,5.8,Kim Kwang-bin,Korean
+The Call,Thriller,2020,112,7.1,Lee Chung-hyun,Korean
+Alive,Horror,2020,98,6.3,Cho Il-hyung,Korean
+#Alive,Horror,2020,98,6.3,Cho Il-hyung,Korean
+Time to Hunt,Thriller,2020,134,6.5,Yoon Sung-hyun,Korean
+Night in Paradise,Crime,2020,131,6.5,Park Hoon-jung,Korean
+Steel Rain,Action,2017,139,6.9,Yang Woo-suk,Korean
+Steel Rain 2: Summit,Action,2020,132,5.9,Yang Woo-suk,Korean
+The Negotiation,Thriller,2018,114,6.7,Lee Jong-suk,Korean
+Default,Drama,2018,114,6.8,Choi Kook-hee,Korean
+Black Money,Drama,2019,113,6.5,Jung Ji-woo,Korean
+Innocent Witness,Drama,2019,129,7.0,Lee Han,Korean
+Beasts Clawing at Straws,Crime,2020,108,7.1,Kim Yong-hoon,Korean
+Lucky Chan-sil,Drama,2019,116,6.8,Kim Cho-hee,Korean
+Moving On,Drama,2019,101,6.9,Yoon Dan-bi,Korean
+Baseball Girl,Drama,2019,101,6.7,Choi Yun-tae,Korean
+Kim Ji-young: Born 1982,Drama,2019,118,7.1,Kim Do-young,Korean
+House of Hummingbird,Drama,2018,138,7.6,Kim Bora,Korean
+Microhabitat,Drama,2017,106,7.2,Jeon Go-woon,Korean
+Our Body,Drama,2019,116,6.9,Han Ka-ram,Korean
+Maggie,Drama,2018,89,6.6,Yi Ok-seop,Korean
+A Boy and Sungreen,Drama,2019,107,7.0,Kim Hyun-jung,Korean
+Young Adult Matters,Drama,2019,108,6.7,Lee Hwan-kyung,Korean
+The Day After,Drama,2017,92,7.1,Hong Sang-soo,Korean
+Hotel by the River,Drama,2018,96,7.2,Hong Sang-soo,Korean
+Grass,Drama,2018,66,7.0,Hong Sang-soo,Korean
+The Woman Who Ran,Drama,2020,77,6.9,Hong Sang-soo,Korean
+Introduction,Drama,2021,66,6.8,Hong Sang-soo,Korean
+In Front of Your Face,Drama,2021,85,7.3,Hong Sang-soo,Korean
+The Novelist's Film,Drama,2022,92,6.9,Hong Sang-soo,Korean
+Walk Up,Drama,2022,97,6.8,Hong Sang-soo,Korean
+In Water,Drama,2023,61,6.5,Hong Sang-soo,Korean
+Crouching Tiger, Hidden Dragon,Action,2000,120,7.9,Ang Lee,Chinese
+In the Mood for Love,Drama,2000,98,8.1,Wong Kar-wai,Chinese
+Hero,Action,2002,99,7.9,Zhang Yimou,Chinese
+House of Flying Daggers,Action,2004,119,7.6,Zhang Yimou,Chinese
+Curse of the Golden Flower,Drama,2006,114,7.0,Zhang Yimou,Chinese
+The Grandmaster,Action,2013,130,6.6,Wong Kar-wai,Chinese
+Chungking Express,Drama,1994,102,8.1,Wong Kar-wai,Chinese
+Fallen Angels,Crime,1995,96,7.7,Wong Kar-wai,Chinese
+Happy Together,Drama,1997,96,7.7,Wong Kar-wai,Chinese
+2046,Science Fiction,2004,129,7.5,Wong Kar-wai,Chinese
+Days of Being Wild,Drama,1990,94,7.6,Wong Kar-wai,Chinese
+Ashes of Time,Drama,1994,100,7.0,Wong Kar-wai,Chinese
+The Killer,Action,1989,111,7.8,John Woo,Chinese
+Hard Boiled,Action,1992,128,7.8,John Woo,Chinese
+A Better Tomorrow,Action,1986,95,7.6,John Woo,Chinese
+A Better Tomorrow II,Action,1987,105,7.1,John Woo,Chinese
+The Bride with White Hair,Fantasy,1993,89,7.2,Ronny Yu,Chinese
+Infernal Affairs,Crime,2002,101,8.1,Andrew Lau,Chinese
+Infernal Affairs II,Crime,2003,119,7.8,Andrew Lau,Chinese
+Infernal Affairs III,Crime,2003,118,7.0,Andrew Lau,Chinese
+Eat Drink Man Woman,Drama,1994,124,7.8,Ang Lee,Chinese
+The Wedding Banquet,Comedy,1993,106,7.6,Ang Lee,Chinese
+Lust, Caution,Drama,2007,157,7.5,Ang Lee,Chinese
+Red Cliff,Action,2008,148,7.4,John Woo,Chinese
+Red Cliff II,Action,2009,142,7.3,John Woo,Chinese
+Fearless,Action,2006,104,7.7,Ronny Yu,Chinese
+Ip Man,Action,2008,106,8.0,Wilson Yip,Chinese
+Ip Man 2,Action,2010,108,7.5,Wilson Yip,Chinese
+Ip Man 3,Action,2015,105,7.0,Wilson Yip,Chinese
+Ip Man 4: The Finale,Action,2019,107,7.2,Wilson Yip,Chinese
+Kung Fu Hustle,Comedy,2004,99,7.7,Stephen Chow,Chinese
+Shaolin Soccer,Comedy,2001,112,7.3,Stephen Chow,Chinese
+Journey to the West,Comedy,2013,110,7.0,Stephen Chow,Chinese
+The Mermaid,Comedy,2016,94,6.3,Stephen Chow,Chinese
+The God of Cookery,Comedy,1996,95,7.3,Stephen Chow,Chinese
+For a Few Less Dollars,Comedy,1994,94,6.8,Stephen Chow,Chinese
+Fist of Fury,Action,1972,106,7.3,Lo Wei,Chinese
+The Way of the Dragon,Action,1972,100,7.5,Bruce Lee,Chinese
+Enter the Dragon,Action,1973,102,7.7,Robert Clouse,Chinese
+The Big Boss,Action,1971,100,7.1,Lo Wei,Chinese
+Police Story,Action,1985,101,7.6,Jackie Chan,Chinese
+Police Story 2,Action,1988,122,7.2,Jackie Chan,Chinese
+Project A,Action,1983,106,7.5,Jackie Chan,Chinese
+Drunken Master,Action,1978,111,7.6,Yuen Woo-ping,Chinese
+Once Upon a Time in China,Action,1991,134,7.4,Tsui Hark,Chinese
+Once Upon a Time in China II,Action,1992,113,7.3,Tsui Hark,Chinese
+Once Upon a Time in China III,Action,1993,109,6.9,Tsui Hark,Chinese
+The Blade,Action,1995,111,7.3,Tsui Hark,Chinese
+Detective Dee: The Mystery of the Phantom Flame,Action,2010,122,6.6,Tsui Hark,Chinese
+Flying Swords of Dragon Gate,Action,2011,122,6.5,Tsui Hark,Chinese
+The Taking of Tiger Mountain,Action,2014,141,6.5,Tsui Hark,Chinese
+A Chinese Ghost Story,Fantasy,1987,98,7.5,Ching Siu-tung,Chinese
+A Chinese Ghost Story II,Fantasy,1990,104,7.0,Ching Siu-tung,Chinese
+A Chinese Ghost Story III,Fantasy,1991,109,6.6,Ching Siu-tung,Chinese
+The Bride with White Hair,Fantasy,1993,89,7.2,Ronny Yu,Chinese
+The Bride with White Hair 2,Fantasy,1993,80,6.4,David Wu,Chinese
+Rouge,Drama,1987,96,7.6,Stanley Kwan,Chinese
+Center Stage,Drama,1991,154,7.7,Stanley Kwan,Chinese
+Red Sorghum,Drama,1987,91,7.6,Zhang Yimou,Chinese
+Ju Dou,Drama,1990,95,7.7,Zhang Yimou,Chinese
+Raise the Red Lantern,Drama,1991,125,8.1,Zhang Yimou,Chinese
+The Story of Qiu Ju,Drama,1992,100,7.7,Zhang Yimou,Chinese
+To Live,Drama,1994,132,8.3,Zhang Yimou,Chinese
+Shanghai Triad,Crime,1995,108,7.1,Zhang Yimou,Chinese
+Not One Less,Drama,1999,106,7.7,Zhang Yimou,Chinese
+The Road Home,Drama,1999,89,7.7,Zhang Yimou,Chinese
+Happy Times,Comedy,2000,95,7.2,Zhang Yimou,Chinese
+Riding Alone for Thousands of Miles,Drama,2005,107,7.4,Zhang Yimou,Chinese
+The Flowers of War,Drama,2011,146,7.6,Zhang Yimou,Chinese
+Coming Home,Drama,2014,109,7.6,Zhang Yimou,Chinese
+The Great Wall,Fantasy,2016,103,5.9,Zhang Yimou,Chinese
+Shadow,Action,2018,116,7.2,Zhang Yimou,Chinese
+One Second,Drama,2020,104,7.7,Zhang Yimou,Chinese
+Cliff Walkers,Thriller,2021,120,6.6,Zhang Yimou,Chinese
+Farewell My Concubine,Drama,1993,171,8.1,Chen Kaige,Chinese
+The Emperor and the Assassin,History,1998,162,7.5,Chen Kaige,Chinese
+Together,Drama,2002,116,7.4,Chen Kaige,Chinese
+The Promise,Fantasy,2005,121,5.6,Chen Kaige,Chinese
+Forever Enthralled,Drama,2008,147,7.0,Chen Kaige,Chinese
+Caught in the Web,Drama,2012,121,7.1,Chen Kaige,Chinese
+The Legend of the Demon Cat,Fantasy,2017,129,6.2,Chen Kaige,Chinese
+My People, My Country,Drama,2019,155,6.7,Chen Kaige,Chinese
+Suzhou River,Drama,2000,83,7.5,Lou Ye,Chinese
+Summer Palace,Drama,2006,140,7.1,Lou Ye,Chinese
+Spring Fever,Drama,2009,116,6.6,Lou Ye,Chinese
+Love and Bruises,Drama,2011,99,6.3,Lou Ye,Chinese
+Mystery,Drama,2012,106,6.5,Lou Ye,Chinese
+Blind Massage,Drama,2014,115,7.1,Lou Ye,Chinese
+The Shadow Play,Drama,2019,124,6.4,Lou Ye,Chinese
+Beijing Bicycle,Drama,2001,113,7.4,Wang Xiaoshuai,Chinese
+Shanghai Dreams,Drama,2005,120,7.2,Wang Xiaoshuai,Chinese
+In Love We Trust,Drama,2008,115,7.3,Wang Xiaoshuai,Chinese
+Chongqing Blues,Drama,2010,110,6.8,Wang Xiaoshuai,Chinese
+Red Amnesia,Drama,2014,116,6.7,Wang Xiaoshuai,Chinese
+So Long, My Son,Drama,2019,185,7.7,Wang Xiaoshuai,Chinese
+The World,Drama,2004,143,7.4,Jia Zhangke,Chinese
+Still Life,Drama,2006,111,7.3,Jia Zhangke,Chinese
+24 City,Drama,2008,112,7.1,Jia Zhangke,Chinese
+A Touch of Sin,Drama,2013,133,7.2,Jia Zhangke,Chinese
+Mountains May Depart,Drama,2015,131,7.0,Jia Zhangke,Chinese
+Ash Is Purest White,Drama,2018,136,7.1,Jia Zhangke,Chinese
+Swimming Out Till the Sea Turns Blue,Documentary,2020,111,6.7,Jia Zhangke,Chinese
+An Elephant Sitting Still,Drama,2018,234,7.9,Hu Bo,Chinese
+The Coffin in the Mountain,Thriller,2014,119,7.2,Xin Yukun,Chinese
+The Wasted Times,Drama,2016,126,6.7,Cheng Er,Chinese
+The Wild Goose Lake,Crime,2019,113,6.7,Diao Yinan,Chinese
+Black Coal, Thin Ice,Thriller,2014,106,6.9,Diao Yinan,Chinese
+Long Day's Journey Into Night,Drama,2018,138,6.8,Bi Gan,Chinese
+Kaili Blues,Drama,2015,113,7.1,Bi Gan,Chinese
+Anima,Short,2019,15,7.5,Bi Gan,Chinese
+The Crossing,Drama,2018,123,6.9,Bai Xue,Chinese
+Send Me to the Clouds,Drama,2019,97,7.0,Teng Congcong,Chinese
+The Eight Hundred,War,2020,147,7.2,Guan Hu,Chinese
+The Battle at Lake Changjin,War,2021,176,5.8,Chen Kaige,Chinese
+The Battle at Lake Changjin II,War,2022,149,5.6,Chen Kaige,Chinese
+Better Days,Drama,2019,135,7.5,Derek Tsang,Chinese
+Soulmate,Drama,2016,109,6.8,Derek Tsang,Chinese
+The Midnight After,Comedy,2014,124,6.4,Fruit Chan,Chinese
+Three,Thriller,2016,88,6.1,Johnnie To,Chinese
+Drug War,Crime,2012,107,7.1,Johnnie To,Chinese
+Blind Detective,Comedy,2013,129,6.6,Johnnie To,Chinese
+Office,Comedy,2015,120,6.0,Johnnie To,Chinese
+Chasing Dream,Comedy,2019,139,5.9,Johnnie To,Chinese
+Throw Down,Comedy,2004,95,7.0,Johnnie To,Chinese
+Exiled,Action,2006,110,7.3,Johnnie To,Chinese
+Election,Crime,2005,101,7.1,Johnnie To,Chinese
+Election 2,Crime,2006,92,7.2,Johnnie To,Chinese
+Breaking News,Action,2004,90,6.8,Johnnie To,Chinese
+PTU,Crime,2003,88,7.1,Johnnie To,Chinese
+Sparrow,Crime,2008,87,6.7,Johnnie To,Chinese
+Vengeance,Action,2009,108,6.9,Johnnie To,Chinese
+Life Without Principle,Crime,2011,106,6.8,Johnnie To,Chinese
+Mad Detective,Crime,2007,89,7.3,Johnnie To,Chinese
+Running on Karma,Action,2003,93,6.6,Johnnie To,Chinese
+Fulltime Killer,Action,2001,102,6.7,Johnnie To,Chinese
+Needing You...,Comedy,2000,101,6.9,Johnnie To,Chinese
+Love on a Diet,Comedy,2001,100,6.3,Johnnie To,Chinese
+My Left Eye Sees Ghosts,Comedy,2002,98,6.8,Johnnie To,Chinese
+Turn Left, Turn Right,Comedy,2003,95,6.5,Johnnie To,Chinese
+Yesterday Once More,Comedy,2004,105,6.4,Johnnie To,Chinese
+Don't Go Breaking My Heart,Comedy,2011,115,6.7,Johnnie To,Chinese
+Romancing in Thin Air,Comedy,2012,106,6.2,Johnnie To,Chinese
+Blind Massage,Drama,2014,115,7.1,Lou Ye,Chinese
+The Shadow Play,Drama,2019,124,6.4,Lou Ye,Chinese
+The Dead End,Crime,2015,118,6.5,Soi Cheang,Chinese
+Accident,Thriller,2009,87,6.7,Soi Cheang,Chinese
+Motorway,Action,2012,90,6.5,Soi Cheang,Chinese
+The Monkey King,Fantasy,2014,119,5.3,Soi Cheang,Chinese
+The Monkey King 2,Fantasy,2016,119,5.9,Soi Cheang,Chinese
+The Monkey King 3,Fantasy,2018,114,5.1,Soi Cheang,Chinese
+The White Storm,Action,2013,134,6.8,Benny Chan,Chinese
+Call of Heroes,Action,2016,120,6.5,Benny Chan,Chinese
+Raging Fire,Action,2021,126,6.8,Benny Chan,Chinese
+The Four,Action,2012,118,5.8,Gordon Chan,Chinese
+The Four II,Action,2013,117,5.7,Gordon Chan,Chinese
+The Four III,Action,2014,107,5.5,Gordon Chan,Chinese
+Painted Skin,Fantasy,2008,103,6.3,Gordon Chan,Chinese
+Painted Skin: The Resurrection,Fantasy,2012,131,6.1,Gordon Chan,Chinese
+The Mermaid,Comedy,2016,94,6.3,Stephen Chow,Chinese
+The New King of Comedy,Comedy,2019,91,5.8,Stephen Chow,Chinese
+Journey to the West: Conquering the Demons,Comedy,2013,110,7.0,Stephen Chow,Chinese
+The God of Cookery,Comedy,1996,95,7.3,Stephen Chow,Chinese
+For a Few Less Dollars,Comedy,1994,94,6.8,Stephen Chow,Chinese
+King of Comedy,Comedy,1999,89,7.4,Stephen Chow,Chinese
+The Tricky Master,Comedy,1999,95,6.5,Stephen Chow,Chinese
+Fight Back to School,Comedy,1991,100,7.2,Stephen Chow,Chinese
+Fight Back to School II,Comedy,1992,102,6.9,Stephen Chow,Chinese
+Fight Back to School III,Comedy,1993,89,6.7,Stephen Chow,Chinese
+From Beijing with Love,Comedy,1994,86,7.1,Stephen Chow,Chinese
+Out of the Dark,Comedy,1995,82,6.5,Stephen Chow,Chinese
+God of Gamblers,Comedy,1989,126,7.4,Wong Jing,Chinese
+God of Gamblers II,Comedy,1990,125,7.0,Wong Jing,Chinese
+God of Gamblers III: Back to Shanghai,Comedy,1991,116,6.7,Wong Jing,Chinese
+Seven Samurai,Action,1954,207,8.6,Akira Kurosawa,Japanese
+Rashomon,Crime,1950,88,8.2,Akira Kurosawa,Japanese
+Ikiru,Drama,1952,143,8.3,Akira Kurosawa,Japanese
+Yojimbo,Action,1961,110,8.2,Akira Kurosawa,Japanese
+Sanjuro,Action,1962,96,8.0,Akira Kurosawa,Japanese
+High and Low,Crime,1963,143,8.4,Akira Kurosawa,Japanese
+Throne of Blood,Drama,1957,110,8.1,Akira Kurosawa,Japanese
+The Hidden Fortress,Adventure,1958,139,8.1,Akira Kurosawa,Japanese
+Dreams,Fantasy,1990,119,7.8,Akira Kurosawa,Japanese
+Ran,Action,1985,162,8.2,Akira Kurosawa,Japanese
+Spirited Away,Animation,2001,125,8.6,Hayao Miyazaki,Japanese
+My Neighbor Totoro,Animation,1988,86,8.2,Hayao Miyazaki,Japanese
+Princess Mononoke,Animation,1997,134,8.4,Hayao Miyazaki,Japanese
+Howl's Moving Castle,Animation,2004,119,8.2,Hayao Miyazaki,Japanese
+Kiki's Delivery Service,Animation,1989,103,7.8,Hayao Miyazaki,Japanese
+Nausicaä of the Valley of the Wind,Animation,1984,117,8.1,Hayao Miyazaki,Japanese
+Ponyo,Animation,2008,101,7.7,Hayao Miyazaki,Japanese
+The Wind Rises,Animation,2013,126,7.8,Hayao Miyazaki,Japanese
+Castle in the Sky,Animation,1986,124,8.0,Hayao Miyazaki,Japanese
+Grave of the Fireflies,Animation,1988,89,8.5,Isao Takahata,Japanese
+Only Yesterday,Animation,1991,118,7.7,Isao Takahata,Japanese
+Pom Poko,Animation,1994,119,7.4,Isao Takahata,Japanese
+My Neighbors the Yamadas,Animation,1999,104,7.2,Isao Takahata,Japanese
+The Tale of the Princess Kaguya,Animation,2013,137,8.0,Isao Takahata,Japanese
+Tokyo Story,Drama,1953,136,8.2,Yasujirō Ozu,Japanese
+Late Spring,Drama,1949,108,8.2,Yasujirō Ozu,Japanese
+Early Summer,Drama,1951,125,8.0,Yasujirō Ozu,Japanese
+Floating Weeds,Drama,1959,119,8.1,Yasujirō Ozu,Japanese
+An Autumn Afternoon,Drama,1962,113,8.1,Yasujirō Ozu,Japanese
+Good Morning,Comedy,1959,94,7.7,Yasujirō Ozu,Japanese
+Ugetsu,Drama,1953,96,8.2,Kenji Mizoguchi,Japanese
+Sansho the Bailiff,Drama,1954,124,8.4,Kenji Mizoguchi,Japanese
+The Life of Oharu,Drama,1952,136,8.1,Kenji Mizoguchi,Japanese
+Woman in the Dunes,Drama,1964,147,8.5,Hiroshi Teshigahara,Japanese
+The Face of Another,Drama,1966,124,8.0,Hiroshi Teshigahara,Japanese
+Pitfall,Drama,1962,97,7.6,Hiroshi Teshigahara,Japanese
+Harakiri,Drama,1962,133,8.6,Masaki Kobayashi,Japanese
+The Human Condition I,Drama,1959,208,8.4,Masaki Kobayashi,Japanese
+The Human Condition II,Drama,1959,181,8.4,Masaki Kobayashi,Japanese
+The Human Condition III,Drama,1961,190,8.5,Masaki Kobayashi,Japanese
+Kwaidan,Horror,1964,183,8.1,Masaki Kobayashi,Japanese
+Samurai Rebellion,Drama,1967,128,8.2,Masaki Kobayashi,Japanese
+Onibaba,Horror,1964,103,8.0,Kaneto Shindō,Japanese
+The Naked Island,Drama,1960,96,8.1,Kaneto Shindō,Japanese
+Kuroneko,Horror,1968,99,7.8,Kaneto Shindō,Japanese
+Tampopo,Comedy,1985,114,8.0,Jūzō Itami,Japanese
+A Taxing Woman,Comedy,1987,127,7.5,Jūzō Itami,Japanese
+The Funeral,Comedy,1984,124,7.6,Jūzō Itami,Japanese
+Supermarket Woman,Comedy,1996,127,7.5,Jūzō Itami,Japanese
+Your Name.,Animation,2016,106,8.2,Makoto Shinkai,Japanese
+Weathering With You,Animation,2019,112,7.5,Makoto Shinkai,Japanese
+Suzume,Animation,2022,122,7.7,Makoto Shinkai,Japanese
+5 Centimeters Per Second,Animation,2007,63,7.6,Makoto Shinkai,Japanese
+The Garden of Words,Animation,2013,46,7.4,Makoto Shinkai,Japanese
+Akira,Animation,1988,124,8.0,Katsuhiro Otomo,Japanese
+Ghost in the Shell,Animation,1995,83,8.0,Mamoru Oshii,Japanese
+Perfect Blue,Animation,1997,81,8.0,Satoshi Kon,Japanese
+Paprika,Animation,2006,90,7.7,Satoshi Kon,Japanese
+Tokyo Godfathers,Animation,2003,92,7.8,Satoshi Kon,Japanese
+Millennium Actress,Animation,2001,87,7.9,Satoshi Kon,Japanese
+Battle Royale,Action,2000,114,7.1,Kinji Fukasaku,Japanese
+Battle Royale II,Action,2003,133,5.2,Kinji Fukasaku,Japanese
+Audition,Horror,1999,115,7.1,Takashi Miike,Japanese
+Ichi the Killer,Action,2001,129,7.1,Takashi Miike,Japanese
+13 Assassins,Action,2010,141,7.5,Takashi Miike,Japanese
+Hara-Kiri: Death of a Samurai,Action,2011,128,6.9,Takashi Miike,Japanese
+The Happiness of the Katakuris,Comedy,2001,113,7.1,Takashi Miike,Japanese
+Gozu,Horror,2003,130,6.9,Takashi Miike,Japanese
+Visitor Q,Comedy,2001,84,6.7,Takashi Miike,Japanese
+One Missed Call,Horror,2003,112,5.8,Takashi Miike,Japanese
+Ringu,Horror,1998,96,7.2,Hideo Nakata,Japanese
+Dark Water,Horror,2002,101,6.6,Hideo Nakata,Japanese
+The Ring 2,Horror,1999,95,5.6,Hideo Nakata,Japanese
+Ju-on: The Grudge,Horror,2002,92,6.7,Takashi Shimizu,Japanese
+Ju-on: The Grudge 2,Horror,2003,92,6.2,Takashi Shimizu,Japanese
+Pulse,Horror,2001,118,6.5,Kiyoshi Kurosawa,Japanese
+Cure,Thriller,1997,111,7.5,Kiyoshi Kurosawa,Japanese
+Tokyo Sonata,Drama,2008,120,7.6,Kiyoshi Kurosawa,Japanese
+Bright Future,Drama,2003,92,6.7,Kiyoshi Kurosawa,Japanese
+Journey to the Shore,Drama,2015,128,6.5,Kiyoshi Kurosawa,Japanese
+Still Walking,Drama,2008,115,7.9,Hirokazu Kore-eda,Japanese
+Nobody Knows,Drama,2004,141,8.1,Hirokazu Kore-eda,Japanese
+After Life,Drama,1998,118,7.8,Hirokazu Kore-eda,Japanese
+Like Father, Like Son,Drama,2013,121,7.7,Hirokazu Kore-eda,Japanese
+Our Little Sister,Drama,2015,128,7.5,Hirokazu Kore-eda,Japanese
+Shoplifters,Drama,2018,121,8.0,Hirokazu Kore-eda,Japanese
+The Truth,Drama,2019,106,6.8,Hirokazu Kore-eda,Japanese
+Broker,Drama,2022,129,7.3,Hirokazu Kore-eda,Japanese
+Monster,Drama,2023,127,7.9,Hirokazu Kore-eda,Japanese
+Departures,Drama,2008,130,8.1,Yōjirō Takita,Japanese
+Shall We Dance?,Comedy,1996,136,7.7,Masayuki Suo,Japanese
+The Twilight Samurai,Drama,2002,129,8.1,Yōji Yamada,Japanese
+The Hidden Blade,Drama,2004,132,7.8,Yōji Yamada,Japanese
+Love and Honor,Drama,2006,121,7.6,Yōji Yamada,Japanese
+Tora-san, Our Lovable Tramp,Comedy,1969,112,7.6,Yōji Yamada,Japanese
+The Yellow Handkerchief,Drama,1977,108,7.7,Yōji Yamada,Japanese
+About Her Brother,Drama,2010,127,7.2,Yōji Yamada,Japanese
+What a Wonderful Family!,Comedy,2016,108,7.0,Yōji Yamada,Japanese
+The Little House,Drama,2014,136,7.4,Yōji Yamada,Japanese
+Godzilla,Action,1954,96,7.5,Ishirō Honda,Japanese
+Godzilla Raids Again,Action,1955,82,5.8,Motoyoshi Oda,Japanese
+Mothra vs. Godzilla,Action,1964,89,6.9,Ishirō Honda,Japanese
+Ghidorah, the Three-Headed Monster,Action,1964,92,6.8,Ishirō Honda,Japanese
+Invasion of Astro-Monster,Action,1965,94,6.8,Ishirō Honda,Japanese
+The War of the Gargantuas,Action,1966,88,6.7,Ishirō Honda,Japanese
+Destroy All Monsters,Action,1968,89,6.6,Ishirō Honda,Japanese
+All Monsters Attack,Action,1969,70,5.2,Ishirō Honda,Japanese
+Godzilla vs. Hedorah,Action,1971,85,5.8,Yoshimitsu Banno,Japanese
+Godzilla vs. Gigan,Action,1972,89,5.7,Jun Fukuda,Japanese
+Godzilla vs. Megalon,Action,1973,82,5.2,Jun Fukuda,Japanese
+Godzilla vs. Mechagodzilla,Action,1974,84,6.2,Jun Fukuda,Japanese
+Terror of Mechagodzilla,Action,1975,83,6.1,Ishirō Honda,Japanese
+The Return of Godzilla,Action,1984,103,6.2,Koji Hashimoto,Japanese
+Godzilla vs. Biollante,Action,1989,104,6.3,Kazuki Ōmori,Japanese
+Godzilla vs. King Ghidorah,Action,1991,103,6.4,Kazuki Ōmori,Japanese
+Godzilla vs. Mothra,Action,1992,102,6.3,Takao Okawara,Japanese
+Godzilla vs. Mechagodzilla II,Action,1993,108,6.2,Takao Okawara,Japanese
+Godzilla vs. SpaceGodzilla,Action,1994,108,5.8,Kensho Yamashita,Japanese
+Godzilla vs. Destoroyah,Action,1995,103,6.5,Takao Okawara,Japanese
+Godzilla 2000,Action,1999,97,6.1,Takao Okawara,Japanese
+Godzilla vs. Megaguirus,Action,2000,105,5.6,Masaaki Tezuka,Japanese
+Godzilla, Mothra and King Ghidorah,Action,2001,105,6.3,Shusuke Kaneko,Japanese
+Godzilla Against Mechagodzilla,Action,2002,88,6.1,Masaaki Tezuka,Japanese
+Godzilla: Tokyo S.O.S.,Action,2003,91,6.1,Masaaki Tezuka,Japanese
+Godzilla: Final Wars,Action,2004,125,5.5,Ryūhei Kitamura,Japanese
+Shin Godzilla,Action,2016,120,6.8,Hideaki Anno,Japanese
+Godzilla Minus One,Action,2023,125,8.3,Takashi Yamazaki,Japanese
+The End of Evangelion,Animation,1997,87,8.1,Hideaki Anno,Japanese
+Evangelion: 1.0 You Are (Not) Alone,Animation,2007,98,7.6,Hideaki Anno,Japanese
+Evangelion: 2.0 You Can (Not) Advance,Animation,2009,112,7.8,Hideaki Anno,Japanese
+Evangelion: 3.0 You Can (Not) Redo,Animation,2012,96,7.2,Hideaki Anno,Japanese
+Evangelion: 3.0+1.0 Thrice Upon a Time,Animation,2021,155,8.0,Hideaki Anno,Japanese
+Perfect Days,Drama,2023,123,7.8,Wim Wenders,Japanese
+Drive My Car,Drama,2021,179,7.5,Ryusuke Hamaguchi,Japanese
+Wheel of Fortune and Fantasy,Drama,2021,121,7.5,Ryusuke Hamaguchi,Japanese
+Asako I & II,Drama,2018,119,6.9,Ryusuke Hamaguchi,Japanese
+Happy Hour,Drama,2015,317,7.7,Ryusuke Hamaguchi,Japanese
+The Third Murder,Drama,2017,124,6.9,Hirokazu Kore-eda,Japanese
+The Makanai: Cooking for the Maiko House,Drama,2023,45,7.8,Hirokazu Kore-eda,Japanese
+First Love,Romance,2019,108,6.8,Takashi Miike,Japanese
+The Great Yokai War,Action,2005,124,6.2,Takashi Miike,Japanese
+Zebraman,Comedy,2004,115,6.3,Takashi Miike,Japanese
+The Bird People in China,Adventure,1998,118,7.4,Takashi Miike,Japanese
+Dead or Alive,Action,1999,105,6.6,Takashi Miike,Japanese
+The Way of the Dragon,Action,1972,100,7.5,Bruce Lee,Japanese
+The Street Fighter,Action,1974,91,6.7,Shigehiro Ozawa,Japanese
+Return of the Street Fighter,Action,1974,80,6.3,Shigehiro Ozawa,Japanese
+The Street Fighter's Last Revenge,Action,1974,87,6.2,Shigehiro Ozawa,Japanese
+Sister Street Fighter,Action,1974,87,5.9,Kazuhiko Yamaguchi,Japanese
+The Bodyguard,Action,1973,86,6.1,Ryūichi Takamori,Japanese
+Wolf Guy,Action,1975,86,6.2,Kazuhiko Yamaguchi,Japanese
+The Bullet Train,Action,1975,152,7.1,Juno Satō,Japanese
+The Man Who Stole the Sun,Action,1979,147,7.7,Kazuhiko Hasegawa,Japanese
+Cops vs. Thugs,Action,1975,100,7.3,Kinji Fukasaku,Japanese
+Graveyard of Honor,Action,1975,94,7.4,Kinji Fukasaku,Japanese
+Sympathy for the Underdog,Action,1971,93,7.1,Kinji Fukasaku,Japanese
+Street Mobster,Action,1972,92,7.0,Kinji Fukasaku,Japanese
+Battles Without Honor and Humanity,Action,1973,99,7.6,Kinji Fukasaku,Japanese
+Battles Without Honor and Humanity: Deadly Fight in Hiroshima,Action,1973,100,7.4,Kinji Fukasaku,Japanese
+Battles Without Honor and Humanity: Proxy War,Action,1973,101,7.5,Kinji Fukasaku,Japanese
+Battles Without Honor and Humanity: Police Tactics,Action,1974,101,7.4,Kinji Fukasaku,Japanese
+Battles Without Honor and Humanity: Final Episode,Action,1974,99,7.4,Kinji Fukasaku,Japanese
+Crows Zero,Action,2007,130,7.2,Takashi Miike,Japanese
+Crows Zero 2,Action,2009,133,7.1,Takashi Miike,Japanese
+Azumi,Action,2003,128,6.8,Ryūhei Kitamura,Japanese
+Azumi 2,Action,2005,109,6.2,Shusuke Kaneko,Japanese
+The Princess Blade,Action,2001,92,5.9,Shinsuke Sato,Japanese
+Death Trance,Action,2005,93,5.2,Yūji Shimomura,Japanese
+Versus,Action,2000,119,6.5,Ryūhei Kitamura,Japanese
+Alive,Action,2002,118,6.3,Ryūhei Kitamura,Japanese
+Godzilla: Final Wars,Action,2004,125,5.5,Ryūhei Kitamura,Japanese
+Love Exposure,Romance,2008,237,7.9,Sion Sono,Japanese
+Cold Fish,Thriller,2010,144,7.1,Sion Sono,Japanese
+Suicide Club,Horror,2001,99,6.5,Sion Sono,Japanese
+Noriko's Dinner Table,Drama,2005,159,7.2,Sion Sono,Japanese
+Why Don't You Play in Hell?,Action,2013,129,7.3,Sion Sono,Japanese
+Tokyo Tribe,Action,2014,116,5.8,Sion Sono,Japanese
+The Forest of Love,Crime,2019,151,6.7,Sion Sono,Japanese
+Red Post on Escher Street,Drama,2020,150,7.0,Sion Sono,Japanese
+Prisoners of the Ghostland,Action,2021,103,5.3,Sion Sono,Japanese

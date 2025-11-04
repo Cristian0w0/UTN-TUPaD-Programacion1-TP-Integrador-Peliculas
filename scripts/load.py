@@ -2,6 +2,57 @@ import main, os, csv
 
 
 
+def get_all_movies() -> list:
+    """
+    Recursively finds all movies.csv files in the movies folder and subfolders,
+    and returns a list with all movies.
+    
+    Returns:
+        list: List with all movies as dictionaries
+    """
+    path_movies_unscrapped = main.config["Movies"]["Movies_Unscrapped"]
+    movies_folder = os.getcwd() + "\\" + path_movies_unscrapped.split("\\")[0]
+    encoding = main.config["Config"]["Encoding"]
+    
+    all_movies = []  # Cambiado de dict a list
+    
+    def find_movies_csv_files(folder_path):
+        """
+        Recursive function to find all movies.csv files
+        """
+        try:
+            # Check all items in current folder
+            for item in os.listdir(folder_path):
+                item_path = os.path.join(folder_path, item)
+                
+                if os.path.isdir(item_path):
+                    # If it's a directory, search recursively
+                    find_movies_csv_files(item_path)
+                elif item == "movies.csv":
+                    # Found a movies.csv file, read its content
+                    try:
+                        with open(item_path, "r", encoding=encoding, newline="") as movies_file:
+                            movies_reader = csv.DictReader(movies_file)
+                            for movie in movies_reader:
+                                # Add movie to list as dictionary
+                                movie_dict = {field: movie[field] for field in main.HEADER}
+                                all_movies.append(movie_dict)
+
+                    except Exception as e:
+                        print(f"Error reading {item_path}: {str(e)}")
+                        
+        except PermissionError:
+            print(f"Permission denied accessing folder: {folder_path}")
+        except Exception as e:
+            print(f"Error accessing folder {folder_path}: {str(e)}")
+    
+    # Start the recursive search
+    find_movies_csv_files(movies_folder)
+
+    return all_movies
+
+
+
 def categorize_movies():
     """
     Categorizes movies from a CSV file into a nested folder structure:
@@ -15,75 +66,49 @@ def categorize_movies():
     movies_folder = os.getcwd() + "\\" + path_movies_unscrapped.split("\\")[0]
     encoding = main.config["Config"]["Encoding"]
     file_format = main.config["Config"]["File_Format"]
-
-    # Define duration categories
-    def get_duration_category(duration):
-        duration = int(duration)
-        if duration < 90:
-            return "short"
-        elif duration <= 120:
-            return "medium"
-        else:
-            return "long"
     
     # Read and organize movies
     movies_by_category = {}
     validation_errors = 0
+    invalid_movies = []
+    processed_movies = []
     
     try:
         with open(path_movies_unscrapped, "r", encoding=encoding, newline="") as movies_unscrapped_file:
             movies_unscrapped_reader = csv.DictReader(movies_unscrapped_file)
+            all_movies = list(movies_unscrapped_reader)
             
-            for movie in movies_unscrapped_reader:
-                # Extract fields
-                name = movie[main.HEADER[0]]
-                genre = movie[main.HEADER[1]]
-                year = movie[main.HEADER[2]]
-                duration = movie[main.HEADER[3]]
-                rating = movie[main.HEADER[4]]
-                director = movie[main.HEADER[5]]
-                language = movie[main.HEADER[6]]
+            for movie in all_movies:
+                # Extract fields and clean any None values
+                cleaned_movie = {}
+                for field in main.HEADER:
+                    cleaned_movie[field] = movie.get(field, "") or ""
                 
-                # Skip if any essential field is empty
-                if not all([name, genre, year, duration, rating, director, language]):
+                movie_fields = {field: movie[field] for field in main.HEADER}
+                if not all(movie_fields.values()):
+                    invalid_movies.append(cleaned_movie)
+                    validation_errors += 1
                     continue
-                
-                # Create fields dictionary for validation
-                movie_fields = {
-                    main.HEADER[0]: name,
-                    main.HEADER[1]: genre,
-                    main.HEADER[2]: year,
-                    main.HEADER[3]: duration,
-                    main.HEADER[4]: rating,
-                    main.HEADER[5]: director,
-                    main.HEADER[6]: language
-                }
-                
+
                 # Validate movie fields
                 validation_result = validate_movie_fields(movie_fields)
                 if validation_result != True:
+                    invalid_movies.append(cleaned_movie)
                     validation_errors += 1
                     continue  # Skip invalid movies
                 
                 # Get duration category
-                duration_cat = get_duration_category(duration)
+                duration_cat = main.get_duration_category(movie_fields["duration"])
                 
                 # Create category key
-                category_key = (genre, year, duration_cat)
+                category_key = (movie_fields["genre"], movie_fields["year"], duration_cat)
                 
                 # Add movie to category
                 if category_key not in movies_by_category:
                     movies_by_category[category_key] = []
                 
-                movies_by_category[category_key].append({
-                    main.HEADER[0]: name,
-                    main.HEADER[1]: genre,
-                    main.HEADER[2]: year,
-                    main.HEADER[3]: duration,
-                    main.HEADER[4]: rating,
-                    main.HEADER[5]: director,
-                    main.HEADER[6]: language
-                })
+                movies_by_category[category_key].append(cleaned_movie)
+                processed_movies.append(cleaned_movie)
     
     except FileNotFoundError:
         return {"error": f"CSV file not found: {path_movies_unscrapped}"}
@@ -99,6 +124,8 @@ def categorize_movies():
         "validation_errors": validation_errors,
         "duplicate_movies_skipped": 0
     }
+    
+    duplicate_movies = []
     
     for (genre, year, duration_cat), movies in movies_by_category.items():
         # Skip empty categories (shouldn't happen, but just in case)
@@ -116,14 +143,14 @@ def categorize_movies():
             # Create CSV file path
             path_movies = os.path.join(folder_path, "movies." + file_format)
             
-            # FIRST: Read existing movies (if file exists)
+            # Read existing movies (if file exists)
             existing_movies = []
             if os.path.exists(path_movies):
                 with open(path_movies, "r", encoding=encoding, newline="") as existing_file:
                     existing_reader = csv.DictReader(existing_file)
                     existing_movies = list(existing_reader)
             
-            # SECOND: Filter duplicates
+            # Filter duplicates
             unique_movies = []
             for new_movie in movies:
                 is_duplicate = False
@@ -133,6 +160,7 @@ def categorize_movies():
                     if movies_are_identical(existing_movie, new_movie):
                         print(f"Duplicate skipped: {new_movie[main.HEADER[0]]}")
                         stats["duplicate_movies_skipped"] += 1
+                        duplicate_movies.append(new_movie)
                         is_duplicate = True
                         break
                 
@@ -142,19 +170,28 @@ def categorize_movies():
                         if movies_are_identical(unique_movie, new_movie):
                             print(f"Duplicate in batch skipped: {new_movie[main.HEADER[0]]}")
                             stats["duplicate_movies_skipped"] += 1
+                            duplicate_movies.append(new_movie)
                             is_duplicate = True
                             break
                 
                 if not is_duplicate:
                     unique_movies.append(new_movie)
             
-            # THIRD: Write all movies (existing + new unique ones)
-            all_movies = existing_movies + unique_movies
+            # Write all movies (existing + new unique ones)
+            all_movies_to_write = existing_movies + unique_movies
+            
+            # Clean the movies to write (ensure no extra fields)
+            cleaned_movies_to_write = []
+            for movie in all_movies_to_write:
+                cleaned_movie = {}
+                for field in main.HEADER:
+                    cleaned_movie[field] = movie.get(field, '') or ''
+                cleaned_movies_to_write.append(cleaned_movie)
             
             with open(path_movies, "w", encoding=encoding, newline="") as movies_file:
                 movies_writer = csv.DictWriter(movies_file, fieldnames=main.HEADER)
                 movies_writer.writeheader()
-                movies_writer.writerows(all_movies)
+                movies_writer.writerows(cleaned_movies_to_write)
             
             stats["created_files"] += 1
             stats["total_categories"] += 1
@@ -164,6 +201,33 @@ def categorize_movies():
             print(f"Error creating category {folder_path}: {str(e)}")
             continue
     
+    # Update the original movies_unscrapped file with only invalid and duplicate movies
+    try:
+        remaining_movies = invalid_movies + duplicate_movies
+        
+        # Clean the remaining movies to ensure they only have the fields in main.HEADER
+        cleaned_remaining_movies = []
+        for movie in remaining_movies:
+            cleaned_movie = {}
+            for field in main.HEADER:
+                cleaned_movie[field] = movie.get(field, '') or ''
+            cleaned_remaining_movies.append(cleaned_movie)
+        
+        with open(path_movies_unscrapped, "w", encoding=encoding, newline="") as movies_unscrapped_file:
+            writer = csv.DictWriter(movies_unscrapped_file, fieldnames=main.HEADER)
+            writer.writeheader()
+            if cleaned_remaining_movies:
+                writer.writerows(cleaned_remaining_movies)
+        
+        print(f"Original file updated. Remaining movies: {len(cleaned_remaining_movies)} (Invalid: {len(invalid_movies)}, Duplicates: {len(duplicate_movies)})")
+        
+    except Exception as e:
+        print(f"Error updating original file: {str(e)}")
+        # Print debug information
+        print(f"main.HEADER: {main.HEADER}")
+        if remaining_movies:
+            print(f"First movie keys: {list(remaining_movies[0].keys())}")
+    
     return stats
 
 
@@ -172,13 +236,13 @@ def movies_are_identical(movie1, movie2):
     """
     Compare two movies for exact match in all fields
     """
-    return (movie1[main.HEADER[0]] == movie2[main.HEADER[0]] and
-            movie1[main.HEADER[1]] == movie2[main.HEADER[1]] and
-            str(movie1[main.HEADER[2]]) == str(movie2[main.HEADER[2]]) and
-            str(movie1[main.HEADER[3]]) == str(movie2[main.HEADER[3]]) and
-            str(movie1[main.HEADER[4]]) == str(movie2[main.HEADER[4]]) and
-            movie1[main.HEADER[5]] == movie2[main.HEADER[5]] and
-            movie1[main.HEADER[6]] == movie2[main.HEADER[6]])
+    def clean_movie(movie):
+        return {field: str(movie.get(field, "")).strip() for field in main.HEADER}
+    
+    movie1_clean = clean_movie(movie1)
+    movie2_clean = clean_movie(movie2)
+    
+    return all(movie1_clean[field] == movie2_clean[field] for field in main.HEADER)
 
 
 
@@ -222,7 +286,7 @@ def validate_movie_fields(fields):
     
     # Validate genre
     if fields["genre"] not in main.GENRES:
-        return f"Invalid genre '{fields["genre"]}'. Must be one of: {", ".join(sorted(main.GENRES))}"
+        return f"Invalid genre '{fields['genre']}'. Must be one of: {', '.join(sorted(main.GENRES))}"
     
     # Validate year - positive integer
     try:
