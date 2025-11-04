@@ -181,7 +181,6 @@ def show_sorted_movies(all_movies):
 
 
 
-
 def ingresar_opcion(texto:str = "\nIngresar opción: ", 
                     rango_max:int = sys.maxsize, rango_min:int = 0):
     # Función para validar entrada de opciones del usuario

@@ -286,7 +286,7 @@ def validate_movie_fields(fields):
     
     # Validate genre
     if fields["genre"] not in main.GENRES:
-        return f"Invalid genre '{fields['genre']}'. Must be one of: {', '.join(sorted(main.GENRES))}"
+        return f"Invalid genre '{fields["genre"]}'. Must be one of: {", ".join(sorted(main.GENRES))}"
     
     # Validate year - positive integer
     try:
@@ -318,5 +318,9 @@ def validate_movie_fields(fields):
                 return "Rating can have maximum 1 decimal place"
     except (ValueError, TypeError):
         return "Rating must be a valid number"
+    
+    # Validate language - must be in available languages
+    if fields["language"] not in main.LANGUAGES:
+        return f"Invalid language '{fields["language"]}'. Must be one of: {", ".join(sorted(main.LANGUAGES))}"
     
     return True
