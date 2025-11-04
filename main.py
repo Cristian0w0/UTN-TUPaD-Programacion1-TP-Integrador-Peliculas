@@ -1,13 +1,15 @@
 import sys, configparser, unicodedata
-from scripts import filtrar, ordenar, mostrar, cargar, organizar
+#from scripts import filtrar, ordenar, mostrar, cargar, organizar
+from scripts import load, organize
 
 # Configuración inicial del programa
-configuracion = configparser.ConfigParser()
-configuracion.read('configuracion.ini', encoding='utf-8-sig')
+config = configparser.ConfigParser()
+config.read("config.ini", encoding="utf-8-sig")
 
 # Definición de constantes
-HEADER = ["nombre", "población", "superficie", "continente", "onu"]
-CONTINENTES = ["África", "América", "Asia", "Europa", "Oceanía"]
+HEADER = ["name", "genre", "year", "duration", "rating", "director", "language"]
+GENRES = ["Action", "Adventure", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "History", 
+        "Horror", "Music", "Mystery", "Romance", "Science Fiction", "Thriller", "War", "Western"]
 
 def main():
     # Menú principal del programa
@@ -16,9 +18,8 @@ def main():
         "1. Filtrar países\n"
         "2. Ordenar países\n"
         "3. Mostrar estadísticas\n"
-        "4. Cargar países\n"
         "0. Salir")
-        opcion = ingresar_opcion(rango_max=4)
+        opcion = ingresar_opcion(rango_max=3)
         match opcion:
             case 0:
                 print("\nSaliendo...")
@@ -29,8 +30,6 @@ def main():
                 menu_ordenar()
             case 3:
                 menu_mostrar()
-            case 4:
-                menu_cargar()
 
 
 
@@ -169,10 +168,12 @@ def remover_tildes(continente:str):
 
 if (__name__ == "__main__"):
     # Inicialización del programa - organización de archivos CSV
-    rutas_csv = organizar.organizar_archivos(configuracion)
+    rutas_csv = organize.organize_files()
     print("\n" + "="*60)
     print("RUTAS DE ARCHIVOS CSV ORGANIZADOS:")
     print("="*60)
     for nombre, ruta in sorted(rutas_csv.items()):
         print(f"  {nombre:20} -> {ruta}")
-    main()
+    #main()
+    stats = load.categorize_movies()
+    print(stats)
