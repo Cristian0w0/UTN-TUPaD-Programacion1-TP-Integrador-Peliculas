@@ -1,124 +1,145 @@
 import main, os
 
 
+
 def show_movies(all_movies):
+    """Display all movies with their file paths"""
     if not all_movies:
-        print("\nNo hay películas para mostrar")
+        print("\nNo movies to display")
         return
-    print("\n-- Mostrando todas las películas con su ubicación --")
+    print("\n-- Showing all movies with their location --")
     path_movies_unscrapped = main.config["Movies"]["Movies_Unscrapped"]
     movies_folder = os.getcwd() + "\\" + path_movies_unscrapped.split("\\")[0]
     print(main.HEADER)
     for movie in all_movies:
+        # Build the file path based on movie attributes
         path_attributes = [
             movies_folder,
-            movie["genre"],
-            movie["year"],
-            main.get_duration_category(movie["duration"])
+            movie[main.HEADER[1]],
+            movie[main.HEADER[2]],
+            main.get_duration_category(movie[main.HEADER[3]])
         ]
         movie_path = "\\".join(path_attributes)
         print("")
         print(list(movie.values()))
-        print(f"Ubicación: {movie_path}")
+        print(f"Location: {movie_path}")
 
 
 
 def show_movie_amount(all_movies):
+    """Display total number of movies"""
     if not all_movies:
-        print("\nNo hay películas para contar")
+        print("\nNo movies to count")
         return
-    print(f"\n-- Cantidad de películas en total: {len(all_movies)}--")
+    print(f"\n-- Total number of movies: {len(all_movies)} --")
 
 
 
 def show_movie_amount_genre(all_movies):
+    """Display number of movies by genre"""
     if not all_movies:
-        print("\nNo hay películas para contar por género")
+        print("\nNo movies to count by genre")
         return
+    
+    # Initialize counter for all genres
     genre_amount = {genre: 0 for genre in main.GENRES}
+    
+    # Count movies per genre
     for movie in all_movies:
-        movie_genre = main.get_attribute(movie, key=main.HEADER[1])
+        movie_genre = movie[main.HEADER[1]]
         genre_amount[movie_genre] += 1
-    print("\n-- Cantidad de películas por género --")
+    
+    print("\n-- Number of movies by genre --")
     for genre, amount in genre_amount.items():
         print(f"{genre}: {amount}")
 
 
 
 def show_average_duration(all_movies):
+    """Calculate and display average duration of all movies"""
     if not all_movies:
-        print("\nNo hay películas para promediar duración")
+        print("\nNo movies to calculate average duration")
         return
+    
     total_duration = 0
     movie_amount = len(all_movies)
+    
+    # Sum all movie durations
     for movie in all_movies:
-        movie_duration = main.get_attribute(movie, key=main.HEADER[3])
+        movie_duration = movie[main.HEADER[3]]
         total_duration += int(movie_duration)
+    
     average_duration = total_duration / movie_amount
-    print(f"\n-- Promedio de duración de todas las películas: {average_duration:.2f} minutos --")
+    print(f"\n-- Average duration of all movies: {average_duration:.2f} minutes --")
 
 
 
 def show_average_duration_genre(all_movies):
+    """Calculate and display average duration by genre"""
     if not all_movies:
-        print("\nNo hay películas para promediar duración por género")
+        print("\nNo movies to calculate average duration by genre")
         return
     
     genre_duration_amount = {}
     
     for movie in all_movies:
-        movie_genre = movie[main.HEADER[1]]  # género
-        movie_duration = movie[main.HEADER[3]]  # duración
+        movie_genre = movie[main.HEADER[1]]  # genre
+        movie_duration = movie[main.HEADER[3]]  # duration
         
-        # Convertir duración a entero
+        # Convert duration to integer
         try:
             movie_duration = int(movie_duration)
         except (ValueError, TypeError):
-            continue  # Saltar si no se puede convertir a entero
+            continue  # Skip if cannot convert to integer
         
-        # Inicializar el género si no existe
+        # Initialize genre if it doesn't exist
         if movie_genre not in genre_duration_amount:
             genre_duration_amount[movie_genre] = {
                 main.HEADER[3]: 0,
                 "amount": 0
             }
         
-        # Acumular duración y contar
+        # Accumulate duration and count
         genre_duration_amount[movie_genre][main.HEADER[3]] += movie_duration
         genre_duration_amount[movie_genre]["amount"] += 1
     
-    # Calcular promedios y mostrar resultados
-    print("\n--- Promedio de duración de películas por género ---")
+    # Calculate averages and display results
+    print("\n--- Average movie duration by genre ---")
     for genre, data in genre_duration_amount.items():
         average_duration = data[main.HEADER[3]] / data["amount"]
-        print(f"{genre}: {average_duration:.2f} minutos")
+        print(f"{genre}: {average_duration:.2f} minutes")
 
 
 
 def show_sorted_movies(all_movies):
+    """Display movies sorted by a selected attribute"""
     if not all_movies:
-        print("\nNo hay películas para ordenar por atributo")
+        print("\nNo movies to sort by attribute")
         return
-    atributo = ""
+    
+    attribute = ""
     while True:
-        print("\n-- Elegir atributo para ordenar películas --\n"
-        "1. Nombre\n"
-        "2. Género\n"
-        "3. Año de estreno\n"
-        "4. Duración en minutos\n"
+        # Display sorting options menu
+        print("\n-- Choose attribute to sort movies --\n"
+        "1. Name\n"
+        "2. Genre\n"
+        "3. Release year\n"
+        "4. Duration in minutes\n"
         "5. Rating\n"
         "6. Director\n"
-        "7. Idioma original\n"
-        "0. Volver al menú principal")
-        opcion = main.ingresar_opcion(rango_max=7)
-        match opcion:
+        "7. Original language\n"
+        "0. Return to main menu")
+        option = main.insert_option(range_max=7)
+        match option:
             case 1|2|3|4|5|6|7:
-                atributo = main.HEADER[opcion-1]
+                attribute = main.HEADER[option-1]
                 break
             case 0:
                 return
-    sorted_movies = sorted(all_movies, key=lambda x: x[atributo])
-    print(f"\n-- Películas ordenadas por {atributo.capitalize()} --")
+    
+    # Sort movies by selected attribute
+    sorted_movies = sorted(all_movies, key=lambda x: x[attribute])
+    print(f"\n-- Movies sorted by {attribute.capitalize()} --")
     print(main.HEADER)
     for movie in sorted_movies:
         print(list(movie.values()))
@@ -126,150 +147,172 @@ def show_sorted_movies(all_movies):
 
 
 def show_filtered_movies(all_movies):
+    """Display movies filtered by various criteria"""
     if not all_movies:
-        print("\nNo hay películas para filtrar por atributo")
+        print("\nNo movies to filter by attribute")
         return
     
     filtered_movies = []
     filter_condition = ""
-    atributo = ""
+    attribute = ""
     
+    # Get filter attribute from user
     while True:
-        print("\n-- Elegir atributo para filtrar películas --\n"
-        "1. Género\n"
-        "2. Rango de años de estreno\n"
-        "3. Rango de duración en minutos\n"
-        "4. Rango de rating\n"
+        print("\n-- Choose attribute to filter movies --\n"
+        "1. Genre\n"
+        "2. Release year range\n"
+        "3. Duration range in minutes\n"
+        "4. Rating range\n"
         "5. Director\n"
-        "6. Idioma original\n"
-        "0. Volver al menú principal")
-        opcion = main.ingresar_opcion(rango_max=6)
-        match opcion:
+        "6. Original language\n"
+        "0. Return to main menu")
+        option = main.insert_option(range_max=6)
+        match option:
             case 1|2|3|4|5|6:
-                atributo = main.HEADER[opcion]
+                attribute = main.HEADER[option]
                 break
             case 0:
                 return
     
-    # Filtro por género
+    # Filter by genre
     genre = ""
-    if atributo == main.HEADER[1]:  # HEADER[1] es genre
+    if attribute == main.HEADER[1]:  # HEADER[1] is genre
         while True:
-            print("\n--- Elegir género para filtrar películas ---")
-            for i, genre in enumerate(main.GENRES, 1):
-                print(f"{i}. {genre}")
-            print("0. Volver al menú principal")
-            opcion = main.ingresar_opcion(rango_max=16)
-            match opcion:
-                case _ if 1 <= opcion <= 16:
-                    genre = main.GENRES[opcion-1]
+            print("\n--- Choose genre to filter movies ---")
+            for i, genre_item in enumerate(main.GENRES, 1):
+                print(f"{i}. {genre_item}")
+            print("0. Return to main menu")
+            option = main.insert_option(range_max=16)
+            match option:
+                case _ if 1 <= option <= 16:
+                    genre = main.GENRES[option-1]
                     break
                 case 0:
                     return
-        filter_condition = f"{atributo} ({genre})"
+        filter_condition = f"{attribute} ({genre})"
         for movie in all_movies:
-            if (main.get_attribute(movie, key=atributo) == genre):
+            if (movie[attribute] == genre):
                 filtered_movies.append(movie)
     
-    # Filtro por rango de años
-    elif atributo == main.HEADER[2]:  # HEADER[2] es year
-        print(f"\n--- Filtrar por rango de {atributo} ---")
+    # Filter by year range
+    elif attribute == main.HEADER[2]:  # HEADER[2] is year
+        print(f"\n--- Filter by {attribute} range ---")
         try:
-            año_min = int(input("Año mínimo: "))
-            año_max = int(input("Año máximo: "))
+            #year_min = int(input("Minimum year: "))
+            year_min = main.insert_option(text = "Minimum year: ")
+            #year_max = int(input("Maximum year: "))
+            year_max = main.insert_option(text = "Maximum year: ")
             
-            if año_min > año_max:
-                año_min, año_max = año_max, año_min
+            # Swap if min > max
+            if year_min > year_max:
+                year_min, year_max = year_max, year_min
                 
-            filter_condition = f"{atributo} ({año_min}-{año_max})"
+            filter_condition = f"{attribute} ({year_min}-{year_max})"
             for movie in all_movies:
-                año_pelicula = int(main.get_attribute(movie, key=atributo))
-                if año_min <= año_pelicula <= año_max:
+                movie_year = int(movie[attribute])
+                if year_min <= movie_year <= year_max:
                     filtered_movies.append(movie)
         except ValueError:
-            print("Error: Debe ingresar números válidos para los años")
+            print("Error: You must enter valid numbers for years")
             return
     
-    # Filtro por rango de duración
-    elif atributo == main.HEADER[3]:  # HEADER[3] es duration
-        print(f"\n--- Filtrar por rango de {atributo} (minutos) ---")
+    # Filter by duration range
+    elif attribute == main.HEADER[3]:  # HEADER[3] is duration
+        print(f"\n--- Filter by {attribute} range (minutes) ---")
         try:
-            duracion_min = int(input("Duración mínima (minutos): "))
-            duracion_max = int(input("Duración máxima (minutos): "))
+            #duration_min = int(input("Minimum duration (minutes): "))
+            duration_min = main.insert_option(text = "Minimum duration (minutes): ")
+            #duration_max = int(input("Maximum duration (minutes): "))
+            duration_max = main.insert_option(text = "Maximum duration (minutes): ")
             
-            if duracion_min > duracion_max:
-                duracion_min, duracion_max = duracion_max, duracion_min
+            # Swap if min > max
+            if duration_min > duration_max:
+                print("Minimum duration is bigger than Maximum duration, swapping...")
+                duration_min, duration_max = duration_max, duration_min
                 
-            filter_condition = f"{atributo} ({duracion_min}-{duracion_max} minutos)"
+            filter_condition = f"{attribute} ({duration_min}-{duration_max} minutes)"
             for movie in all_movies:
-                duracion_pelicula = int(main.get_attribute(movie, key=atributo))
-                if duracion_min <= duracion_pelicula <= duracion_max:
+                movie_duration = int(movie[attribute])
+                if duration_min <= movie_duration <= duration_max:
                     filtered_movies.append(movie)
         except ValueError:
-            print("Error: Debe ingresar números válidos para la duración")
+            print("Error: You must enter valid numbers for duration")
             return
     
-    # Filtro por rango de rating
-    elif atributo == main.HEADER[4]:  # HEADER[4] es rating
-        print(f"\n--- Filtrar por rango de {atributo} (1-10) ---")
+    # Filter by rating range
+    elif attribute == main.HEADER[4]:  # HEADER[4] is rating
+        print(f"\n--- Filter by {attribute} range (1-10) ---")
         try:
-            rating_min = float(input("Rating mínimo (1-10): "))
-            rating_max = float(input("Rating máximo (1-10): "))
+            #rating_min = float(input("Minimum rating (1-10): "))
+            rating_min = main.insert_option(text = "Minimum rating (1 to 10): ",
+                                            range_min = 1,
+                                            range_max = 10,
+                                            value_type = float)
+            #rating_max = float(input("Maximum rating (1-10): "))
+            rating_max = main.insert_option(text = "Maximum rating (1 to 10): ",
+                                            range_min = 1,
+                                            range_max = 10,
+                                            value_type = float)
             
+            # Swap if min > max
             if rating_min > rating_max:
+                print("Minimum rating is bigger than Maximum rating, swapping...")
                 rating_min, rating_max = rating_max, rating_min
                 
+            # Validate rating range
             if rating_min < 0 or rating_max > 10:
-                print("Error: El rating debe estar entre 0 y 10")
+                print("Error: Rating must be between 0 and 10")
                 return
                 
-            filter_condition = f"{atributo} ({rating_min}-{rating_max})"
+            filter_condition = f"{attribute} ({rating_min}-{rating_max})"
             for movie in all_movies:
-                rating_pelicula = float(main.get_attribute(movie, key=atributo))
-                if rating_min <= rating_pelicula <= rating_max:
+                movie_rating = float(movie[attribute])
+                if rating_min <= movie_rating <= rating_max:
                     filtered_movies.append(movie)
         except ValueError:
-            print("Error: Debe ingresar números válidos para el rating")
+            print("Error: You must enter valid numbers for rating")
             return
     
-    # Filtro por director
-    elif atributo == main.HEADER[5]:  # HEADER[5] es director
-        print(f"\n--- Filtrar por {atributo} ---")
-        director_buscar = input("Ingrese el nombre del director: ").strip()
+    # Filter by director (partial match)
+    elif attribute == main.HEADER[5]:  # HEADER[5] is director
+        print(f"\n--- Filter by {attribute} ---")
+        director_search = input("Enter director name: ").strip()
         
-        if not director_buscar:
-            print("Error: Debe ingresar un nombre de director")
+        if not director_search:
+            print("Error: You must enter a director name")
             return
             
-        filter_condition = f"{atributo} ({director_buscar})"
+        filter_condition = f"{attribute} ({director_search})"
         for movie in all_movies:
-            director_pelicula = main.get_attribute(movie, key=atributo)
-            if director_buscar.lower() in director_pelicula.lower():
+            movie_director = movie[attribute]
+            if director_search.lower() in movie_director.lower():
                 filtered_movies.append(movie)
     
-    # Filtro por idioma
-    elif atributo == main.HEADER[6]:  # HEADER[6] es language
-        print(f"\n--- Filtrar por {atributo} ---")
-        print("Idiomas disponibles:", ", ".join(sorted(main.LANGUAGES)))
-        idioma_buscar = input("Ingrese el idioma: ").strip()
+    # Filter by language (exact match)
+    elif attribute == main.HEADER[6]:  # HEADER[6] is language
+        print(f"\n--- Filter by {attribute} ---")
+        print("Available languages:", ", ".join(sorted(main.LANGUAGES)))
+        language_search = input("Enter language: ").strip()
         
-        if not idioma_buscar:
-            print("Error: Debe ingresar un idioma")
+        if not language_search:
+            print("Error: You must enter a language")
             return
             
-        if idioma_buscar not in main.LANGUAGES:
-            print(f"Error: El idioma '{idioma_buscar}' no está en la lista de idiomas disponibles")
+        # Validate language input
+        if language_search not in main.LANGUAGES:
+            print(f"Error: Language '{language_search}' is not in the available languages list")
             return
             
-        filter_condition = f"{atributo} ({idioma_buscar})"
+        filter_condition = f"{attribute} ({language_search})"
         for movie in all_movies:
-            idioma_pelicula = main.get_attribute(movie, key=atributo)
-            if idioma_pelicula == idioma_buscar:
+            movie_language = movie[attribute]
+            if movie_language == language_search:
                 filtered_movies.append(movie)
     
-    print(f"\n--- Películas filtradas por {filter_condition} ---")
+    # Display filtered results
+    print(f"\n--- Movies filtered by {filter_condition} ---")
     if not filtered_movies:
-        print("No hay películas que cumplan con el filtro")
+        print("No movies match the filter criteria")
     else:
         for movie in filtered_movies:
             print(list(movie.values()))
