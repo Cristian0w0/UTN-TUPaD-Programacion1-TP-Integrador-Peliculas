@@ -248,7 +248,9 @@ def clean_empty_files_and_folders(movies_folder):
     
     def find_empty_items(folder_path):
         # Process subfolders first (depth-first)
+        items_processed = False
         for item in os.listdir(folder_path):
+            items_processed = True
             item_path = os.path.join(folder_path, item)
             
             if os.path.isdir(item_path):
@@ -264,8 +266,12 @@ def clean_empty_files_and_folders(movies_folder):
                         rows = list(reader)
                         if len(rows) <= 1:  # Only header or empty
                             empty_files.append(item_path)
-                except:
-                    pass
+                except Exception as e:
+                    print(f"Error reading file {item_path}: {str(e)}")
+        
+        # If no items were processed (empty folder), add it to empty folders
+        if not items_processed and len(os.listdir(folder_path)) == 0:
+            empty_folders.append(folder_path)
     
     # Start the search
     find_empty_items(movies_folder)
@@ -311,10 +317,13 @@ def clean_empty_files_and_folders(movies_folder):
             try:
                 os.rmdir(parent_folder)
                 print(f"Removed empty parent folder: {parent_folder}")
+                removed_folders.add(parent_folder)
                 parent_folder = os.path.dirname(parent_folder)  # Move up one level
             except Exception as e:
                 print(f"Error removing parent folder {parent_folder}: {str(e)}")
                 break
+    
+    return len(empty_files) + len(removed_folders)  # Return count of items cleaned
 
 
 
@@ -562,44 +571,69 @@ def update_movie(all_movies):
         
         os.makedirs(new_folder_path, exist_ok=True)
         
-        # Update all CSV files recursively
-        def update_csv_files(folder_path, original_data, updated_data, target_path):
+        # First: Collect all files that need to be updated
+        files_to_process = []
+        
+        def collect_csv_files(folder_path):
             for item in os.listdir(folder_path):
                 item_path = os.path.join(folder_path, item)
-                
                 if os.path.isdir(item_path):
-                    update_csv_files(item_path, original_data, updated_data, target_path)
+                    collect_csv_files(item_path)
                 elif item.endswith(f".{file_format}"):
-                    movies_data = read_csv_file(item_path, encoding)
-                    if not movies_data:
-                        continue
-                    
-                    updated_movies = []
-                    movie_found = False
-                    
-                    for movie in movies_data:
-                        if movies_are_identical(movie, original_data):
-                            movie_found = True
-                            if item_path == target_path:
-                                updated_movies.append(updated_data.copy())
-                            # else: remove from this file (don't add to updated_movies)
-                        else:
-                            updated_movies.append(movie)
-                    
-                    # Add to target file if not found
-                    if not movie_found and item_path == target_path:
-                        updated_movies.append(updated_data.copy())
-                    
-                    write_csv_file(item_path, updated_movies, encoding, main.HEADER)
+                    files_to_process.append(item_path)
         
-        update_csv_files(movies_folder, original_movie, found_movie, new_file_path)
+        collect_csv_files(movies_folder)
+        
+        # Second: Process each file (no recursion during modification)
+        for file_path in files_to_process:
+            try:
+                movies_data = read_csv_file(file_path, encoding)
+                if not movies_data:
+                    continue
+                
+                updated_movies = []
+                movie_found = False
+                
+                for movie in movies_data:
+                    if movies_are_identical(movie, original_movie):
+                        movie_found = True
+                        if file_path == new_file_path:
+                            updated_movies.append(found_movie.copy())
+                            print(f"Movie updated in: {file_path}")
+                        else:
+                            print(f"Movie removed from: {file_path}")
+                    else:
+                        updated_movies.append(movie)
+                
+                # Add to target file if not found
+                if not movie_found and file_path == new_file_path:
+                    updated_movies.append(found_movie.copy())
+                    print(f"Movie added to: {file_path}")
+                
+                # Write the file only if there are movies
+                if updated_movies:
+                    write_csv_file(file_path, updated_movies, encoding, main.HEADER)
+                else:
+                    # File is now empty, remove it
+                    if os.path.exists(file_path):
+                        os.remove(file_path)
+                        print(f"Empty file removed: {file_path}")
+                        
+            except Exception as e:
+                print(f"Error processing file {file_path}: {str(e)}")
         
         # Create target file if it doesn't exist
         if not os.path.exists(new_file_path):
             write_csv_file(new_file_path, [found_movie], encoding, main.HEADER)
+            print(f"New file created with updated movie: {new_file_path}")
         
-        # Clean empty files and folders
-        clean_empty_files_and_folders(movies_folder)
+        # Use a safer cleanup function that doesn't modify during iteration
+        print("\nCleaning up empty files and folders...")
+        items_cleaned = safe_clean_empty_files_and_folders(movies_folder)
+        if items_cleaned > 0:
+            print(f"Cleaned up {items_cleaned} empty items")
+        else:
+            print("No empty items found to clean")
         
         print("Movie successfully updated in all files!")
         
@@ -607,8 +641,110 @@ def update_movie(all_movies):
         print(f"Error updating files: {str(e)}")
         found_movie[attribute] = previous_value
         print("Changes reverted in memory due to file update error.")
-    
+
     return all_movies
+
+
+
+def safe_clean_empty_files_and_folders(movies_folder):
+    """Safer version that collects all items first before deleting, including parent folders"""
+    empty_files = []
+    empty_folders = []
+    
+    # First pass: collect all empty items without modifying
+    def collect_empty_items(folder_path):
+        for item in os.listdir(folder_path):
+            item_path = os.path.join(folder_path, item)
+            
+            if os.path.isdir(item_path):
+                collect_empty_items(item_path)
+                if len(os.listdir(item_path)) == 0:
+                    empty_folders.append(item_path)
+            elif item.endswith(".csv"):
+                try:
+                    with open(item_path, "r", encoding="utf-8") as f:
+                        reader = csv.reader(f)
+                        rows = list(reader)
+                        if len(rows) <= 1:
+                            empty_files.append(item_path)
+                except:
+                    pass
+    
+    collect_empty_items(movies_folder)
+    
+    # Second pass: delete collected items
+    deleted_count = 0
+    
+    # Delete empty files
+    for file_path in empty_files:
+        try:
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                print(f"Removed empty file: {file_path}")
+                deleted_count += 1
+        except Exception as e:
+            print(f"Error removing file {file_path}: {str(e)}")
+    
+    # Delete empty folders (deepest first)
+    empty_folders.sort(key=lambda x: len(x.split(os.sep)), reverse=True)
+    
+    all_removed_folders = set()
+    
+    for folder_path in empty_folders:
+        try:
+            if (os.path.exists(folder_path) and 
+                os.path.isdir(folder_path) and 
+                len(os.listdir(folder_path)) == 0 and
+                folder_path != movies_folder):
+                
+                os.rmdir(folder_path)
+                print(f"Removed empty folder: {folder_path}")
+                deleted_count += 1
+                all_removed_folders.add(folder_path)
+                
+        except Exception as e:
+            print(f"Error removing folder {folder_path}: {str(e)}")
+    
+    # Third pass: check if parent folders became empty and remove them
+    print("\nChecking for empty parent folders...")
+    additional_removed = check_and_remove_empty_parents(all_removed_folders, movies_folder)
+    deleted_count += additional_removed
+    
+    return deleted_count
+
+
+def check_and_remove_empty_parents(removed_folders, movies_folder):
+    """Check if parent folders became empty after deletions and remove them recursively"""
+    deleted_count = 0
+    folders_to_check = set(removed_folders)
+    all_removed = set()
+    
+    while folders_to_check:
+        current_folder = folders_to_check.pop()
+        parent_folder = os.path.dirname(current_folder)
+        
+        # Skip if we've already processed this parent or it's the main movies folder
+        if (parent_folder in all_removed or 
+            parent_folder == movies_folder or 
+            not os.path.exists(parent_folder)):
+            continue
+        
+        # Check if parent folder is empty
+        if (os.path.isdir(parent_folder) and 
+            len(os.listdir(parent_folder)) == 0):
+            
+            try:
+                os.rmdir(parent_folder)
+                print(f"Removed empty parent folder: {parent_folder}")
+                deleted_count += 1
+                all_removed.add(parent_folder)
+                # Add this parent to the set to check its parent too
+                folders_to_check.add(parent_folder)
+                
+            except Exception as e:
+                print(f"Error removing parent folder {parent_folder}: {str(e)}")
+    
+    return deleted_count
 
 
 
@@ -662,51 +798,64 @@ def delete_movie(all_movies):
         # Track if we found and removed the movie from any file
         movie_removed = False
         
-        def delete_from_csv_files(folder_path, movie_to_delete):
-            nonlocal movie_removed
+        # First: Collect all CSV files
+        files_to_process = []
+        
+        def collect_csv_files(folder_path):
             for item in os.listdir(folder_path):
                 item_path = os.path.join(folder_path, item)
-                
                 if os.path.isdir(item_path):
-                    delete_from_csv_files(item_path, movie_to_delete)
+                    collect_csv_files(item_path)
                 elif item.endswith(f".{file_format}"):
-                    try:
-                        # Read current movies from file
-                        movies_data = read_csv_file(item_path, encoding)
-                        if not movies_data:
-                            continue
-                        
-                        # Filter out the movie to delete
-                        updated_movies = []
-                        for movie in movies_data:
-                            if not movies_are_identical(movie, movie_to_delete):
-                                updated_movies.append(movie)
-                            else:
-                                movie_removed = True
-                                print(f"Movie removed from: {item_path}")
-                        
-                        # Write updated movies back to file (or delete file if empty)
-                        if updated_movies:
-                            write_csv_file(item_path, updated_movies, encoding, main.HEADER)
-                        else:
-                            # File is now empty, remove it
-                            if os.path.exists(item_path):
-                                os.remove(item_path)
-                                print(f"Empty file removed: {item_path}")
-                                
-                    except Exception as e:
-                        print(f"Error processing file {item_path}: {str(e)}")
+                    files_to_process.append(item_path)
         
-        # Search and delete from all CSV files
-        delete_from_csv_files(movies_folder, found_movie)
+        collect_csv_files(movies_folder)
+        
+        # Second: Process each file
+        for file_path in files_to_process:
+            try:
+                # Read current movies from file
+                movies_data = read_csv_file(file_path, encoding)
+                if not movies_data:
+                    continue
+                
+                # Filter out the movie to delete
+                updated_movies = []
+                file_modified = False
+                
+                for movie in movies_data:
+                    if not movies_are_identical(movie, found_movie):
+                        updated_movies.append(movie)
+                    else:
+                        movie_removed = True
+                        file_modified = True
+                        print(f"Movie removed from: {file_path}")
+                
+                # Write updated movies back to file (or delete file if empty)
+                if updated_movies:
+                    if file_modified:  # Only write if something changed
+                        write_csv_file(file_path, updated_movies, encoding, main.HEADER)
+                else:
+                    # File is now empty, remove it
+                    if os.path.exists(file_path):
+                        os.remove(file_path)
+                        print(f"Empty file removed: {file_path}")
+                        
+            except Exception as e:
+                print(f"Error processing file {file_path}: {str(e)}")
         
         if not movie_removed:
             print("Warning: Movie was not found in any CSV file, but was removed from memory.")
         else:
             print("Movie successfully deleted from all files!")
         
-        # Clean up any empty files and folders with improved function
-        clean_empty_files_and_folders(movies_folder)
+        # Clean up any empty files and folders with the safe function
+        print("\nCleaning up empty files and folders...")
+        items_cleaned = safe_clean_empty_files_and_folders(movies_folder)
+        if items_cleaned > 0:
+            print(f"Cleaned up {items_cleaned} empty items")
+        else:
+            print("No empty items found to clean")
         
     except Exception as e:
         print(f"Error during file deletion: {str(e)}")
